@@ -1,0 +1,47 @@
+/* Every photograph keeps its native composition at every viewport size. */
+html #main img[data-photo-fit='full'] {
+  height:auto;
+  min-height:0;
+  object-fit:contain;
+  object-position:center;
+}
+
+html #main :is(.hero-portrait,.city-image,.about-image,.wide-photo,.service-visual,.inner-hero-art,.inner-story-image,.inner-visit-art,.expanded-image)[data-photo-frame='full'] {
+  height:auto;
+  min-height:0;
+}
+
+html #main .hero-media:has(>.hero-portrait[data-photo-frame='full']) {
+  height:auto;
+  min-height:0;
+  align-self:start;
+}
+html #main .hero-portrait[data-photo-frame='full'] { position:relative; inset:auto; }
+/* Mirror the RTL shape and photo independently of the animated container. */
+html[dir='rtl'] #main .hero-portrait[data-photo-frame='full'] { transform:none; clip-path:url(#hero-shape-rtl); }
+html[dir='rtl'] #main .hero-portrait[data-photo-frame='full'] > img[data-photo-fit='full'] { transform:scaleX(-1); }
+
+/* Portrait scenes receive portrait frames within the existing page columns. */
+html #main :is(.inner-hero-art,.inner-story-image,.expanded-image,.about-image)[data-photo-frame='full'] {
+  width:min(100%,calc(var(--photo-aspect) * var(--photo-height-limit,580px)));
+  margin-inline:auto;
+  justify-self:center;
+}
+html #main .inner-hero-art[data-photo-frame='full'] { --photo-height-limit:470px; }
+html #main .inner-story-image[data-photo-frame='full'] { --photo-height-limit:560px; }
+html #main .about-image[data-photo-frame='full'] { --photo-height-limit:600px; align-self:center; }
+html #main .about-image[data-photo-frame='full'] > img[data-photo-fit='full'] { position:relative; inset:auto; }
+html #main .service-reading-aside[data-photo-frame='full'] { align-items:start; }
+
+/* Reserve room for a small scrubbed drift without zooming beyond the frame. */
+html #main :is(.about-image,.wide-photo)[data-photo-frame='full']:has(>img[data-parallax]) { padding:10px; }
+html #main :is(.about-image,.wide-photo)[data-photo-frame='full'] > img[data-parallax] { border-radius:12px; }
+
+html #main :is(.visual-button:hover,.directory-card a:hover) .service-visual > img[data-photo-fit='full'] {
+  transform:none;
+  filter:brightness(1.025);
+}
+html #main .service-visual > img[data-photo-fit='full'] { transition:filter .35s ease; }
+@media(max-width:599px) {
+  html #main :is(.inner-hero-art,.inner-story-image,.expanded-image,.about-image)[data-photo-frame='full'] { --photo-height-limit:500px; }
+}

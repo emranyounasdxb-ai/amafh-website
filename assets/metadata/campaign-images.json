@@ -1,0 +1,98 @@
+[
+  {
+    "id": "hero",
+    "width": 1440,
+    "height": 1080,
+    "sourceWidth": 1448,
+    "sourceHeight": 1086,
+    "bytes": 46154
+  },
+  {
+    "id": "dubai",
+    "width": 1122,
+    "height": 1402,
+    "sourceWidth": 1122,
+    "sourceHeight": 1402,
+    "bytes": 197912
+  },
+  {
+    "id": "meeting",
+    "width": 1440,
+    "height": 1080,
+    "sourceWidth": 1448,
+    "sourceHeight": 1086,
+    "bytes": 90236
+  },
+  {
+    "id": "credit-cards",
+    "width": 1440,
+    "height": 1080,
+    "sourceWidth": 1448,
+    "sourceHeight": 1086,
+    "bytes": 107456
+  },
+  {
+    "id": "personal-finance",
+    "width": 1440,
+    "height": 1080,
+    "sourceWidth": 1448,
+    "sourceHeight": 1086,
+    "bytes": 96672
+  },
+  {
+    "id": "car-loans",
+    "width": 1440,
+    "height": 1080,
+    "sourceWidth": 1448,
+    "sourceHeight": 1086,
+    "bytes": 202250
+  },
+  {
+    "id": "mortgages",
+    "width": 1440,
+    "height": 1080,
+    "sourceWidth": 1448,
+    "sourceHeight": 1086,
+    "bytes": 262116
+  },
+  {
+    "id": "car-insurance",
+    "width": 1440,
+    "height": 1080,
+    "sourceWidth": 1448,
+    "sourceHeight": 1086,
+    "bytes": 203344
+  },
+  {
+    "id": "life-insurance",
+    "width": 1440,
+    "height": 1080,
+    "sourceWidth": 1448,
+    "sourceHeight": 1086,
+    "bytes": 124070
+  },
+  {
+    "id": "current-accounts",
+    "width": 1440,
+    "height": 1080,
+    "sourceWidth": 1448,
+    "sourceHeight": 1086,
+    "bytes": 232716
+  },
+  {
+    "id": "savings-accounts",
+    "width": 1440,
+    "height": 1080,
+    "sourceWidth": 1448,
+    "sourceHeight": 1086,
+    "bytes": 140088
+  },
+  {
+    "id": "approach",
+    "width": 1122,
+    "height": 1402,
+    "sourceWidth": 1122,
+    "sourceHeight": 1402,
+    "bytes": 80918
+  }
+]

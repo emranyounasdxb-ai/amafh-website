@@ -1,0 +1,114 @@
+{
+  "generatedAt": "2026-10-12",
+  "artDirection": "AMAFH cream, charcoal, mauve, pink/purple editorial campaign; illustrative imagery",
+  "assets": [
+    {
+      "id": "hero",
+      "prompt": "Use case: photorealistic-natural. Asset type: AMAFH UAE financial-services homepage campaign hero. Create one premium editorial photograph, landscape 4:3. A confident young Middle Eastern woman with dark softly waved shoulder-length hair, natural expression and visible realistic skin texture, in an elegant light cream blazer with dusty mauve blouse, holding one plain matte plum payment card at chest height. Frame from hips upward, head and hands fully visible, subject on the right 60% of frame. Pale warm grey architectural studio backdrop with subtle curved plaster wall and a faint magenta light reflection. Left 35% clean negative space to fit the website's stepped image mask. Sophisticated corporate art direction, daylight, tactile fabric, calm and approachable, restrained pink and purple accents. No text, logo, watermark, bank name, legible card data or interface. This is illustrative campaign imagery, not an actual employee/customer. Anatomically natural hands. Do not make a collage. Save a high-resolution single image.",
+      "source": "assets/generated/hero.png",
+      "workspaceSource": "assets/generated/hero.png",
+      "output": "public/images/generated/hero.webp",
+      "mode": "built-in image_gen",
+      "model": "The built-in tool does not expose a selectable model identifier."
+    },
+    {
+      "id": "dubai",
+      "prompt": "Use case: photorealistic-natural. Asset type: AMAFH Dubai website supporting architecture image, portrait 4:5 composition. Create one high-end editorial architectural photograph evoking modern Dubai: cream stone terrace in foreground, elegant curved arch on one edge, distant Dubai skyline with recognizable slender Burj Khalifa at golden early evening, subtle purple and dusty pink sky reflections, quiet city atmosphere, realistic buildings and warm natural textures, restrained premium corporate campaign style. Deep visual layers, clear skyline in upper centre and usable foreground. No people, no vehicles, no signs, no logos, no text, no watermark. It is an illustrative city image, not a claim to be AMAFH's actual office. Do not make a collage. Save a high-resolution single image.",
+      "source": "assets/generated/dubai.png",
+      "workspaceSource": "assets/generated/dubai.png",
+      "output": "public/images/generated/dubai.webp",
+      "mode": "built-in image_gen",
+      "model": "The built-in tool does not expose a selectable model identifier."
+    },
+    {
+      "id": "meeting",
+      "prompt": "Use case: photorealistic-natural. Asset type: AMAFH website about and consultation campaign image. One editorial photograph, landscape 4:3 with generous safe framing. Three adults in a bright modern Dubai-inspired meeting lounge, a female consultant in cream tailored jacket and mauve blouse listening to a professional couple across an oval pale stone table. Natural candid body language, eye contact between people, relaxed serious discussion, tablet lying flat and a few plain unmarked papers, hands anatomically correct and not overcomplicated. Curved warm plaster walls, daylight, charcoal chairs, a restrained dusty purple upholstery accent, green plant. Realistic faces, fabric texture, believable photography, premium corporate lifestyle campaign, no generic handshake pose. No writing, no logo, no bank branding, no screens with legible data, no watermark. Subjects are illustrative, not actual AMAFH staff or customers. Single high-resolution image, not collage.",
+      "source": "assets/generated/meeting.png",
+      "workspaceSource": "assets/generated/meeting.png",
+      "output": "public/images/generated/meeting.webp",
+      "mode": "built-in image_gen",
+      "model": "The built-in tool does not expose a selectable model identifier."
+    },
+    {
+      "id": "credit-cards",
+      "prompt": "Use case: product-mockup. Asset type: premium AMAFH credit-card service website artwork. One landscape 4:3 editorial product photograph. Two elegant blank payment-card shapes in a sculptural composition on cream travertine blocks: one deep plum matte card with a small realistic metallic EMV chip and subtle contactless mark, one dusty pink card behind. Restrained purple-to-magenta soft rim light, delicate grounded shadows, satin ceramic arch in background, tactile materials, sophisticated financial-services campaign, minimal uncluttered composition with cards large enough to read the silhouette in a small website tile. No letters, no numbers, no bank/network logo, no invented AMAFH card branding, no watermark, no hands, no collage. This is illustrative product artwork. Save one high-resolution image.",
+      "source": "assets/generated/credit-cards.png",
+      "workspaceSource": "assets/generated/credit-cards.png",
+      "output": "public/images/generated/credit-cards.webp",
+      "mode": "built-in image_gen",
+      "model": "The built-in tool does not expose a selectable model identifier."
+    },
+    {
+      "id": "personal-finance",
+      "prompt": "Use case: photorealistic-natural. Asset type: AMAFH personal-finance website service visual. One high-end editorial photograph in landscape 4:3. A young Middle Eastern professional couple sitting together at a calm cream stone table in a modern sunlit apartment, reviewing a blank notebook and using a small calculator, thoughtful warm expressions, no dramatic gestures, naturally positioned hands. Ivory and taupe clothing with one muted lilac cardigan, subtle pink and purple reflected light, realistic skin, elegant curved architecture and a green plant in the background. Camera at table height, medium-wide framing, balanced composition that crops well in service cards. Original corporate campaign photography rather than generic stock pose. No legible text, currency piles, charts, logo, watermark, or visible personal data. These are illustrative people, not actual customers. One high-resolution image, no collage.",
+      "source": "assets/generated/personal-finance.png",
+      "workspaceSource": "assets/generated/personal-finance.png",
+      "output": "public/images/generated/personal-finance.webp",
+      "mode": "built-in image_gen",
+      "model": "The built-in tool does not expose a selectable model identifier."
+    },
+    {
+      "id": "car-loans",
+      "prompt": "Use case: photorealistic-natural. Asset type: AMAFH car-finance website campaign visual. One landscape 4:3 premium editorial automotive photograph. A sleek unbranded graphite contemporary sedan parked in a clean architectural courtyard in Dubai, three-quarter front-side view, whole car visible with ample safe framing. Warm cream limestone buildings and a subtle curved doorway, soft late afternoon daylight, lavender and dusty pink reflections on bodywork, realistic tyre and glass detail, aspirational but calm corporate campaign. Grounded practical car rather than exotic supercar. No manufacturer badge, no licence plate text, no people, no logos, no watermark, no rendered words. One high-resolution single image, no collage.",
+      "source": "assets/generated/car-loans.png",
+      "workspaceSource": "assets/generated/car-loans.png",
+      "output": "public/images/generated/car-loans.webp",
+      "mode": "built-in image_gen",
+      "model": "The built-in tool does not expose a selectable model identifier."
+    },
+    {
+      "id": "mortgages",
+      "prompt": "Use case: photorealistic-natural. Asset type: AMAFH mortgage and home-finance campaign visual. One landscape 4:3 high-end architectural interior photograph. A beautiful achievable modern UAE family living room with cream sofa, warm travertine coffee table, muted lilac accent chair, pale textured walls, daylight through tall windows, small plant and a softly visible city view. A modest house-key set on a plain cream tray in the foreground, anatomically real objects, believable interior styling, natural materials and soft light. Balanced composition with furniture centred and sufficient safe area for portrait or card crops. Sophisticated warm pink/purple tonal accents, no heavy neon. No people, writing, logos, watermark, no collage. Illustrative property, not an actual listing. Save one high-resolution image.",
+      "source": "assets/generated/mortgages.png",
+      "workspaceSource": "assets/generated/mortgages.png",
+      "output": "public/images/generated/mortgages.webp",
+      "mode": "built-in image_gen",
+      "model": "The built-in tool does not expose a selectable model identifier."
+    },
+    {
+      "id": "car-insurance",
+      "prompt": "Use case: photorealistic-natural. Asset type: AMAFH UAE car-insurance service website campaign photograph. One landscape 4:3 image. Quiet sophisticated scene of a pearl-grey unbranded compact SUV under a covered cream-stone architectural carport after a brief rain, delicate water droplets on bodywork, dry protected foreground, muted lavender sky reflection. Three-quarter view, entire vehicle framed with room around it, realistically grounded tyres and glass. A small unbranded key fob sits on a low stone ledge in foreground; subtle protective architectural canopy visually suggests preparedness without a fake shield symbol. Premium warm editorial photography, restrained pink/purple accents, realistic materials. No accident, damage, logos, licence text, policy writing, people or watermark. No collage. Illustrative vehicle, no claim that rain damage is covered. One high-resolution image.",
+      "source": "assets/generated/car-insurance.png",
+      "workspaceSource": "assets/generated/car-insurance.png",
+      "output": "public/images/generated/car-insurance.webp",
+      "mode": "built-in image_gen",
+      "model": "The built-in tool does not expose a selectable model identifier."
+    },
+    {
+      "id": "life-insurance",
+      "prompt": "Use case: photorealistic-natural. Asset type: AMAFH life-insurance family-protection website campaign visual. One landscape 4:3 candid editorial photo of a contemporary Middle Eastern family, mother father and their young child, seated comfortably together on a cream sofa in a beautiful but believable bright UAE apartment. Gentle natural interaction, child between adults with one simple toy, warm authentic expressions, relaxed hands, no staged thumbs-up or looking at camera. Neutral clothing with one dusty mauve shirt, cream limewash wall, natural daylight, muted lilac cushion and a plant. Wider safe framing, faces all visible, realistic skin and fabric texture, premium corporate campaign, not stock-office imagery. No text, logo, watermark or financial props. Family is illustrative, not actual clients. Single high-resolution image, not collage.",
+      "source": "assets/generated/life-insurance.png",
+      "workspaceSource": "assets/generated/life-insurance.png",
+      "output": "public/images/generated/life-insurance.webp",
+      "mode": "built-in image_gen",
+      "model": "The built-in tool does not expose a selectable model identifier."
+    },
+    {
+      "id": "current-accounts",
+      "prompt": "Use case: product-mockup. Asset type: AMAFH everyday current-account website campaign artwork. One landscape 4:3 premium editorial still-life photograph. A modern smartphone resting diagonally on a cream travertine desk, screen with only an abstract purple gradient and simple unlabeled shapes, a plain matte mauve debit-card shape with small metal chip beside it, elegant blank notebook and a small ceramic cup. Warm side daylight, tactile linen and stone, subtle plum shadows, minimal sophisticated financial-services composition. Large central subject, appropriate for small card crops. No numbers, readable text, bank UI, logo, invented AMAFH card, network mark or watermark. Single high-resolution image, no collage.",
+      "source": "assets/generated/current-accounts.png",
+      "workspaceSource": "assets/generated/current-accounts.png",
+      "output": "public/images/generated/current-accounts.webp",
+      "mode": "built-in image_gen",
+      "model": "The built-in tool does not expose a selectable model identifier."
+    },
+    {
+      "id": "savings-accounts",
+      "prompt": "Use case: product-mockup. Asset type: AMAFH savings-account website campaign artwork. One landscape 4:3 photorealistic editorial still-life photograph. Four low ascending cream travertine steps with small tidy stacks of plain metallic gold-toned coins, a sculptural translucent pale-lilac arch behind, soft natural side light and delicate magenta reflection. Warm tactile stone with real pores, believable generic coins without readable currency markings, minimalist premium corporate-finance campaign, calm sense of gradual progress. Composition centred with ample safe area for small card crops. No graphs, arrows, numbers, letters, text, logo or watermark; do not imply guaranteed growth. Single high-resolution image, no collage.",
+      "source": "assets/generated/savings-accounts.png",
+      "workspaceSource": "assets/generated/savings-accounts.png",
+      "output": "public/images/generated/savings-accounts.webp",
+      "mode": "built-in image_gen",
+      "model": "The built-in tool does not expose a selectable model identifier."
+    },
+    {
+      "id": "approach",
+      "prompt": "Use case: photorealistic-natural. Asset type: AMAFH about and personal-approach website campaign photograph. One portrait 4:5 photograph of a friendly Middle Eastern female professional in a cream blazer and muted mauve blouse listening attentively to a woman client seated opposite, in a bright modern consultation lounge. Both adults visible in medium framing at a round stone table, client slightly in profile on edge, adviser face clear near centre, relaxed natural hands resting on table, blank notebook, no dramatic handshake. Elegant cream curved walls, lilac chair detail, diffused daylight, realistic skin and fabric texture, professional calm warm corporate campaign. No signs, text, logo, watermark, visible financial data or bank branding. Illustrative people and setting, not actual AMAFH staff/client/premises. Single high-resolution image, not collage.",
+      "source": "assets/generated/approach.png",
+      "workspaceSource": "assets/generated/approach.png",
+      "output": "public/images/generated/approach.webp",
+      "mode": "built-in image_gen",
+      "model": "The built-in tool does not expose a selectable model identifier."
+    }
+  ]
+}

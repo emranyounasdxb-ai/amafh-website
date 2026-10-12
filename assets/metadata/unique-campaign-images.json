@@ -1,0 +1,930 @@
+{
+  "generatedAt": "2026-10-12T08:32:48.601Z",
+  "complete": true,
+  "assets": [
+    {
+      "id": "hero-fit-v3",
+      "subject": "hero",
+      "layout": "portrait",
+      "workspaceSource": "assets/generated/unique/hero-fit-v3.png",
+      "output": "public/images/generated/hero-fit-v3.webp",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 52580,
+      "pixelSha256": "50e95a8c7c714e45f4b891675ff234462e158fa263912dc8f19c6f0e44e7ad52"
+    },
+    {
+      "id": "dubai",
+      "subject": "dubai",
+      "workspaceSource": "assets/generated/dubai.png",
+      "output": "public/images/generated/dubai.webp",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 197912,
+      "pixelSha256": "59b71cbe7d366c17a65cd406850c151addf1909c341323220bfa31adfb89ecce"
+    },
+    {
+      "id": "credit-cards-fit-v3",
+      "subject": "credit-cards",
+      "layout": "wide-card",
+      "workspaceSource": "assets/generated/unique/credit-cards-fit-v3.png",
+      "output": "public/images/generated/credit-cards-fit-v3.webp",
+      "width": 1440,
+      "height": 720,
+      "bytes": 100244,
+      "pixelSha256": "2b5566efea6c034e3b671b76984401b889d2653bfeab4f1fd85049cdb6ac6f02"
+    },
+    {
+      "id": "personal-finance-fit-v3",
+      "subject": "personal-finance",
+      "layout": "wide-card",
+      "workspaceSource": "assets/generated/unique/personal-finance-fit-v3.png",
+      "output": "public/images/generated/personal-finance-fit-v3.webp",
+      "width": 1440,
+      "height": 720,
+      "bytes": 102614,
+      "pixelSha256": "c3eb35132852e7ed56569aa93e2dc6e39ede0a5abaa2c5e7e72f4917b64e9994"
+    },
+    {
+      "id": "car-loans-fit-v3",
+      "subject": "car-loans",
+      "layout": "wide-card",
+      "workspaceSource": "assets/generated/unique/car-loans-fit-v3.png",
+      "output": "public/images/generated/car-loans-fit-v3.webp",
+      "width": 1440,
+      "height": 720,
+      "bytes": 181204,
+      "pixelSha256": "8c45a45ccc0331cacdae508b2c27a9ce068dc940a62a5932f6a2f5036dd11dfa"
+    },
+    {
+      "id": "mortgages-fit-v3",
+      "subject": "mortgages",
+      "layout": "wide-card",
+      "workspaceSource": "assets/generated/unique/mortgages-fit-v3.png",
+      "output": "public/images/generated/mortgages-fit-v3.webp",
+      "width": 1440,
+      "height": 720,
+      "bytes": 148012,
+      "pixelSha256": "08fc4c6d002af64ca996e2f911aa5e5175eaeaf9e56a21166e657e73eece6cdb"
+    },
+    {
+      "id": "car-insurance-fit-v3",
+      "subject": "car-insurance",
+      "layout": "wide-card",
+      "workspaceSource": "assets/generated/unique/car-insurance-fit-v3.png",
+      "output": "public/images/generated/car-insurance-fit-v3.webp",
+      "width": 1440,
+      "height": 720,
+      "bytes": 155920,
+      "pixelSha256": "25804a711f8952ee4710497e755a631f2ba42b194ad7f06b2d6e9de354499023"
+    },
+    {
+      "id": "life-insurance-fit-v3",
+      "subject": "life-insurance",
+      "layout": "wide-card",
+      "workspaceSource": "assets/generated/unique/life-insurance-fit-v3.png",
+      "output": "public/images/generated/life-insurance-fit-v3.webp",
+      "width": 1440,
+      "height": 720,
+      "bytes": 118648,
+      "pixelSha256": "cac0560b94745a8002b3bd18272dd90ba603c313dc954b74ae4366a2d9061b78"
+    },
+    {
+      "id": "current-accounts-fit-v3",
+      "subject": "current-accounts",
+      "layout": "wide-card",
+      "workspaceSource": "assets/generated/unique/current-accounts-fit-v3.png",
+      "output": "public/images/generated/current-accounts-fit-v3.webp",
+      "width": 1440,
+      "height": 720,
+      "bytes": 144494,
+      "pixelSha256": "1f2d99de36d846b0a730d82f976440dae846d325a417707f94e3e4c21e27ef69"
+    },
+    {
+      "id": "savings-accounts-fit-v3",
+      "subject": "savings-accounts",
+      "layout": "wide-card",
+      "workspaceSource": "assets/generated/unique/savings-accounts-fit-v3.png",
+      "output": "public/images/generated/savings-accounts-fit-v3.webp",
+      "width": 1440,
+      "height": 720,
+      "bytes": 97320,
+      "pixelSha256": "7df1a4cf7837e6984dc872c9c748a801b0769c6aa9d528617c5a6f659cce4ba4"
+    },
+    {
+      "id": "approach",
+      "subject": "approach",
+      "workspaceSource": "assets/generated/approach.png",
+      "output": "public/images/generated/approach.webp",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 80918,
+      "pixelSha256": "17873f7bc1b7a497720d3eb457ce70506fe9eaf013d3cf0ee2d9be46043df1fc"
+    },
+    {
+      "id": "home-12-fit-v3",
+      "subject": "mortgages",
+      "layout": "panorama",
+      "workspaceSource": "assets/generated/unique/home-12-fit-v3.png",
+      "output": "public/images/generated/home-12-fit-v3.webp",
+      "width": 1440,
+      "height": 480,
+      "bytes": 87150,
+      "pixelSha256": "4b967934495e8214ca83d0ed3ef4fa70086de73d5ead31f5ba1679649e221c17"
+    },
+    {
+      "id": "meeting-fit-v3",
+      "subject": "meeting",
+      "layout": "portrait",
+      "workspaceSource": "assets/generated/unique/meeting-fit-v3.png",
+      "output": "public/images/generated/meeting-fit-v3.webp",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 143478,
+      "pixelSha256": "4a8a62b4d9655ba263a759a351bcfa9a2d94b5714858423e9a45a0580ef9a9c3"
+    },
+    {
+      "id": "about-01-wide-v2",
+      "subject": "meeting",
+      "layout": "wide-card",
+      "workspaceSource": "assets/generated/unique/about-01-wide-v2.png",
+      "output": "public/images/generated/about-01-wide-v2.webp",
+      "width": 1440,
+      "height": 720,
+      "bytes": 104284,
+      "pixelSha256": "e39723e5d22fa5560b3cd5be4e10b461abecf40626b02120173f9bf191eab0f3"
+    },
+    {
+      "id": "about-02-wide-v2",
+      "subject": "dubai",
+      "layout": "wide-card",
+      "workspaceSource": "assets/generated/unique/about-02-wide-v2.png",
+      "output": "public/images/generated/about-02-wide-v2.webp",
+      "width": 1440,
+      "height": 720,
+      "bytes": 155154,
+      "pixelSha256": "3c50ffc67990023dca05daaadc8099b528d926ffd150beebb8dc54d7efa78c94"
+    },
+    {
+      "id": "about-03-wide-v2",
+      "subject": "mortgages",
+      "layout": "wide-card",
+      "workspaceSource": "assets/generated/unique/about-03-wide-v2.png",
+      "output": "public/images/generated/about-03-wide-v2.webp",
+      "width": 1440,
+      "height": 720,
+      "bytes": 104904,
+      "pixelSha256": "7be2366a5353c4e8337e728b3202b2c6bda775b2515a431f425895d429a62cda"
+    },
+    {
+      "id": "about-04",
+      "subject": "approach",
+      "workspaceSource": "assets/generated/unique/about-04.png",
+      "output": "public/images/generated/about-04.webp",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 110956,
+      "pixelSha256": "2fef49856f4b682fa5f8444342805b35f4e6b3f2096e4526dc0be51abbf41777"
+    },
+    {
+      "id": "about-05",
+      "subject": "approach",
+      "workspaceSource": "assets/generated/unique/about-05.png",
+      "output": "public/images/generated/about-05.webp",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 114884,
+      "pixelSha256": "5cc7e0f08f400be06250725e66201c5c4c1f99d73f784c314645068980f667eb"
+    },
+    {
+      "id": "why-amafh-01",
+      "subject": "dubai",
+      "workspaceSource": "assets/generated/unique/why-amafh-01.png",
+      "output": "public/images/generated/why-amafh-01.webp",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 102930,
+      "pixelSha256": "03684189503840b8c2ade5597d353e0d341d7882a54d62d253573b6812fe136a"
+    },
+    {
+      "id": "why-amafh-02-wide-v2",
+      "subject": "meeting",
+      "layout": "wide-card",
+      "workspaceSource": "assets/generated/unique/why-amafh-02-wide-v2.png",
+      "output": "public/images/generated/why-amafh-02-wide-v2.webp",
+      "width": 1440,
+      "height": 720,
+      "bytes": 120936,
+      "pixelSha256": "53e561b0f9888b97f930062ebeaf79a93436cde5b240896a58cf523be7384330"
+    },
+    {
+      "id": "why-amafh-03-wide-v2",
+      "subject": "dubai",
+      "layout": "wide-card",
+      "workspaceSource": "assets/generated/unique/why-amafh-03-wide-v2.png",
+      "output": "public/images/generated/why-amafh-03-wide-v2.webp",
+      "width": 1440,
+      "height": 720,
+      "bytes": 100332,
+      "pixelSha256": "522e7b6da9adda70a27a8546a6f00dcd0de1abc0af04496c99b99ef42777b300"
+    },
+    {
+      "id": "why-amafh-04-wide-v2",
+      "subject": "mortgages",
+      "layout": "wide-card",
+      "workspaceSource": "assets/generated/unique/why-amafh-04-wide-v2.png",
+      "output": "public/images/generated/why-amafh-04-wide-v2.webp",
+      "width": 1440,
+      "height": 720,
+      "bytes": 123990,
+      "pixelSha256": "396b89da1d256f9bd0e77b27a911c8b38e545180be939bfd311fd62043b26de1"
+    },
+    {
+      "id": "why-amafh-05-fit-v3",
+      "subject": "meeting",
+      "layout": "portrait",
+      "workspaceSource": "assets/generated/unique/why-amafh-05-fit-v3.png",
+      "output": "public/images/generated/why-amafh-05-fit-v3.webp",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 144102,
+      "pixelSha256": "0f0c39f86484296ff21aa3ee3e51dcceab2fd99b6b151f1acb8597b7eed91413"
+    },
+    {
+      "id": "our-approach-01",
+      "subject": "meeting",
+      "workspaceSource": "assets/generated/unique/our-approach-01.png",
+      "output": "public/images/generated/our-approach-01.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 126980,
+      "pixelSha256": "9fe57b5f20e6a41131cf3970b6eebee15743181ff5277da0dcb9e4174eb07869"
+    },
+    {
+      "id": "our-approach-02",
+      "subject": "mortgages",
+      "workspaceSource": "assets/generated/unique/our-approach-02.png",
+      "output": "public/images/generated/our-approach-02.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 208950,
+      "pixelSha256": "10798d378288ab19f1bcbca1fd71ff11d2c62b6b0f8c85e3833e2917eca18265"
+    },
+    {
+      "id": "our-approach-03",
+      "subject": "approach",
+      "workspaceSource": "assets/generated/unique/our-approach-03.png",
+      "output": "public/images/generated/our-approach-03.webp",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 89108,
+      "pixelSha256": "713f954e8243879cf36a97cb4a4cd783a6c3a4a3ee230211dadb915d455c0f96"
+    },
+    {
+      "id": "how-it-works-01-fit-v3",
+      "subject": "meeting",
+      "layout": "portrait",
+      "workspaceSource": "assets/generated/unique/how-it-works-01-fit-v3.png",
+      "output": "public/images/generated/how-it-works-01-fit-v3.webp",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 138316,
+      "pixelSha256": "4e832862256204665ef9e0471545a6fab4c59222dc0793045acb380002f74f4f"
+    },
+    {
+      "id": "partners-01",
+      "subject": "dubai",
+      "workspaceSource": "assets/generated/unique/partners-01.png",
+      "output": "public/images/generated/partners-01.webp",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 159130,
+      "pixelSha256": "cf33d9ac3d84e50e7818cd19dfe07555f38af7f6dd17d1d48930e2506a6f9b3e"
+    },
+    {
+      "id": "contact-01-fit-v3",
+      "subject": "dubai",
+      "layout": "wide-card",
+      "workspaceSource": "assets/generated/unique/contact-01-fit-v3.png",
+      "output": "public/images/generated/contact-01-fit-v3.webp",
+      "width": 1440,
+      "height": 720,
+      "bytes": 141326,
+      "pixelSha256": "0da7e59f31e07810fe170e0010ebfa3102f6a7e76a8e057ce77632f2361ab826"
+    },
+    {
+      "id": "contact-02",
+      "subject": "approach",
+      "workspaceSource": "assets/generated/unique/contact-02.png",
+      "output": "public/images/generated/contact-02.webp",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 152492,
+      "pixelSha256": "102cbb6513ab977e7c8e214d43d3eb19603d645c011c406927e0bb553545e45e"
+    },
+    {
+      "id": "services-01",
+      "subject": "credit-cards",
+      "workspaceSource": "assets/generated/unique/services-01.png",
+      "output": "public/images/generated/services-01.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 274586,
+      "pixelSha256": "ebf003d4a814d870fa3ba620f2d754edf5d94448ff2f6aaaae77a005afd21b47"
+    },
+    {
+      "id": "services-02",
+      "subject": "personal-finance",
+      "workspaceSource": "assets/generated/unique/services-02.png",
+      "output": "public/images/generated/services-02.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 117218,
+      "pixelSha256": "30da73710be5001d75b4841e19cda4f4f7d4b7b37529cf9432f06c2a4dc4d172"
+    },
+    {
+      "id": "services-03",
+      "subject": "car-loans",
+      "workspaceSource": "assets/generated/unique/services-03.png",
+      "output": "public/images/generated/services-03.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 166446,
+      "pixelSha256": "0fda895f8b022d98a472b9b7a972f1acf861357a30c8f109e9bf2965f2f069f7"
+    },
+    {
+      "id": "services-04",
+      "subject": "mortgages",
+      "workspaceSource": "assets/generated/unique/services-04.png",
+      "output": "public/images/generated/services-04.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 186456,
+      "pixelSha256": "2caaa0dde7abba12f9cc52d573bcc9fffb89d0b14b94b5763b394366101a0a9f"
+    },
+    {
+      "id": "services-05",
+      "subject": "car-insurance",
+      "workspaceSource": "assets/generated/unique/services-05.png",
+      "output": "public/images/generated/services-05.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 151198,
+      "pixelSha256": "c1c1be92651cd93aef7c396dce25b1d530bdad86c1aa37e2c03449f8dce5f4f5"
+    },
+    {
+      "id": "services-06",
+      "subject": "life-insurance",
+      "workspaceSource": "assets/generated/unique/services-06.png",
+      "output": "public/images/generated/services-06.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 120236,
+      "pixelSha256": "d145c99b6cf9a687b0ff0d840de12b4e116157dcd6e5d5e190c71dbae45259e0"
+    },
+    {
+      "id": "services-07",
+      "subject": "current-accounts",
+      "workspaceSource": "assets/generated/unique/services-07.png",
+      "output": "public/images/generated/services-07.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 370020,
+      "pixelSha256": "14f104784d441f4713184a03c6dc7bc114882edd001e147586ea9f83feba3de3"
+    },
+    {
+      "id": "services-08",
+      "subject": "savings-accounts",
+      "workspaceSource": "assets/generated/unique/services-08.png",
+      "output": "public/images/generated/services-08.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 105296,
+      "pixelSha256": "e2e74d70512896659d7718707ea92c93f8db3d712c6ef19e54f094af8b000f78"
+    },
+    {
+      "id": "services-09-fit-v3",
+      "subject": "meeting",
+      "layout": "portrait",
+      "workspaceSource": "assets/generated/unique/services-09-fit-v3.png",
+      "output": "public/images/generated/services-09-fit-v3.webp",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 187072,
+      "pixelSha256": "77c5dfa7245170c2a64f8c69253e83dedbdda9005d39851174770ff292db1954"
+    },
+    {
+      "id": "services-finance-01",
+      "subject": "credit-cards",
+      "workspaceSource": "assets/generated/unique/services-finance-01.png",
+      "output": "public/images/generated/services-finance-01.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 123938,
+      "pixelSha256": "2f22f3a8ff8977145ec421a713d67a5ac86dfd9432f513c336dce37a39bf490c"
+    },
+    {
+      "id": "services-finance-02",
+      "subject": "personal-finance",
+      "workspaceSource": "assets/generated/unique/services-finance-02.png",
+      "output": "public/images/generated/services-finance-02.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 102272,
+      "pixelSha256": "3a50e789ce7f219790e4f3b72a5a58030736c83b2a023bbd24ebd3e0ee174e7f"
+    },
+    {
+      "id": "services-finance-03",
+      "subject": "car-loans",
+      "workspaceSource": "assets/generated/unique/services-finance-03.png",
+      "output": "public/images/generated/services-finance-03.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 196236,
+      "pixelSha256": "c63d03c80abda2869b0abf52dd5855bb5ed76ebfad7d084d986e212177df9f47"
+    },
+    {
+      "id": "services-finance-04",
+      "subject": "mortgages",
+      "workspaceSource": "assets/generated/unique/services-finance-04.png",
+      "output": "public/images/generated/services-finance-04.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 290796,
+      "pixelSha256": "86e4d8cc9ded38ba819414e249c7f231650892a6ccfdfba37db7e59d228923cd"
+    },
+    {
+      "id": "services-finance-05-fit-v3",
+      "subject": "personal-finance",
+      "layout": "portrait",
+      "workspaceSource": "assets/generated/unique/services-finance-05-fit-v3.png",
+      "output": "public/images/generated/services-finance-05-fit-v3.webp",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 115998,
+      "pixelSha256": "d0e83cf58c8d0f345187f25ccfdf22c7ba85e3fe7939ac470067d1a8e3bf3713"
+    },
+    {
+      "id": "services-insurance-01",
+      "subject": "car-insurance",
+      "workspaceSource": "assets/generated/unique/services-insurance-01.png",
+      "output": "public/images/generated/services-insurance-01.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 131352,
+      "pixelSha256": "db62e82adba61631541e4c379f73a0d567431f9aeed484f2b3e641596ae5200e"
+    },
+    {
+      "id": "services-insurance-02",
+      "subject": "life-insurance",
+      "workspaceSource": "assets/generated/unique/services-insurance-02.png",
+      "output": "public/images/generated/services-insurance-02.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 153498,
+      "pixelSha256": "dc3a6180acaed0f8d9e29343c582471d7f1269367e556f39f47fa59b05842d13"
+    },
+    {
+      "id": "services-insurance-03-fit-v3",
+      "subject": "life-insurance",
+      "layout": "portrait",
+      "workspaceSource": "assets/generated/unique/services-insurance-03-fit-v3.png",
+      "output": "public/images/generated/services-insurance-03-fit-v3.webp",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 170936,
+      "pixelSha256": "4cbd193ab8fc60919f1980b86c32fd0275583bbabbd2b7986534ca31bda48eab"
+    },
+    {
+      "id": "services-accounts-01",
+      "subject": "current-accounts",
+      "workspaceSource": "assets/generated/unique/services-accounts-01.png",
+      "output": "public/images/generated/services-accounts-01.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 103348,
+      "pixelSha256": "6199d75149f6c9ef7a1eef572d7f9f8b17999855b7f096a2bd286d79707fb647"
+    },
+    {
+      "id": "services-accounts-02",
+      "subject": "savings-accounts",
+      "workspaceSource": "assets/generated/unique/services-accounts-02.png",
+      "output": "public/images/generated/services-accounts-02.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 258500,
+      "pixelSha256": "87ebea5be36e8511b282e62db4008389b976c2ff7d8f7ee58bdf48295ff85b42"
+    },
+    {
+      "id": "services-accounts-03-fit-v3",
+      "subject": "current-accounts",
+      "layout": "portrait",
+      "workspaceSource": "assets/generated/unique/services-accounts-03-fit-v3.png",
+      "output": "public/images/generated/services-accounts-03-fit-v3.webp",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 119354,
+      "pixelSha256": "c8fd4c67055e269744f5750c4d97d7fcf5a7ed2a1c4948c5dbd68f00e5c834c2"
+    },
+    {
+      "id": "services-credit-cards-01",
+      "subject": "credit-cards",
+      "workspaceSource": "assets/generated/unique/services-credit-cards-01.png",
+      "output": "public/images/generated/services-credit-cards-01.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 136850,
+      "pixelSha256": "b51c812d2aabed732c1ec9f32b66847b0030facb2617f5235678c0a100c260a1"
+    },
+    {
+      "id": "services-credit-cards-02",
+      "subject": "credit-cards",
+      "workspaceSource": "assets/generated/unique/services-credit-cards-02.png",
+      "output": "public/images/generated/services-credit-cards-02.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 194320,
+      "pixelSha256": "9b0a6214b034978a701422b22e7c57ea8ac810fca7995f71e77bcd8cd6841d5f"
+    },
+    {
+      "id": "services-credit-cards-03",
+      "subject": "personal-finance",
+      "workspaceSource": "assets/generated/unique/services-credit-cards-03.png",
+      "output": "public/images/generated/services-credit-cards-03.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 140896,
+      "pixelSha256": "2026d07db80998b4ae310a4c070d06b2e1a62dd6e26ffb2739de0bca07e2181c"
+    },
+    {
+      "id": "services-credit-cards-04",
+      "subject": "current-accounts",
+      "workspaceSource": "assets/generated/unique/services-credit-cards-04.png",
+      "output": "public/images/generated/services-credit-cards-04.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 117932,
+      "pixelSha256": "89db995f810a442ccd421ac956d417e809186b13c4c70453baaf22eebafab9e3"
+    },
+    {
+      "id": "services-credit-cards-05",
+      "subject": "savings-accounts",
+      "workspaceSource": "assets/generated/unique/services-credit-cards-05.png",
+      "output": "public/images/generated/services-credit-cards-05.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 133948,
+      "pixelSha256": "1d98576b678466949b7ddcd5ec765ef9cd225fa492dcd66123b6db41f4de7216"
+    },
+    {
+      "id": "services-personal-finance-01",
+      "subject": "personal-finance",
+      "workspaceSource": "assets/generated/unique/services-personal-finance-01.png",
+      "output": "public/images/generated/services-personal-finance-01.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 153768,
+      "pixelSha256": "71ceaae5bb593e56031397f66b85270fc7a5c8dcd46ef5f42a799be6d4c2b84d"
+    },
+    {
+      "id": "services-personal-finance-02",
+      "subject": "personal-finance",
+      "workspaceSource": "assets/generated/unique/services-personal-finance-02.png",
+      "output": "public/images/generated/services-personal-finance-02.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 125186,
+      "pixelSha256": "4394bf738729c3434c75e09119d1329ffa1bf68fa3c6527135b699654d1acd0b"
+    },
+    {
+      "id": "services-personal-finance-03",
+      "subject": "credit-cards",
+      "workspaceSource": "assets/generated/unique/services-personal-finance-03.png",
+      "output": "public/images/generated/services-personal-finance-03.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 222158,
+      "pixelSha256": "1742c4bf8cf86bf952a5c1a338c5115ff286eff71fbb2204fd31991131a847ca"
+    },
+    {
+      "id": "services-personal-finance-04",
+      "subject": "car-loans",
+      "workspaceSource": "assets/generated/unique/services-personal-finance-04.png",
+      "output": "public/images/generated/services-personal-finance-04.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 115124,
+      "pixelSha256": "db88eed35ce587cbb0b3f5bbb316873d45a4ce4c8442eed5c6958ad5a2e47b9c"
+    },
+    {
+      "id": "services-personal-finance-05",
+      "subject": "mortgages",
+      "workspaceSource": "assets/generated/unique/services-personal-finance-05.png",
+      "output": "public/images/generated/services-personal-finance-05.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 152312,
+      "pixelSha256": "05c3d8c8e4688c17c9888c47fff67cb9db18ffc7f2c86549c7cb875bbba5ac36"
+    },
+    {
+      "id": "services-car-loans-01",
+      "subject": "car-loans",
+      "workspaceSource": "assets/generated/unique/services-car-loans-01.png",
+      "output": "public/images/generated/services-car-loans-01.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 110074,
+      "pixelSha256": "6eb17f46d78408c512a76b11ee5266c54ceec9aac631f1c98326133c2e62daef"
+    },
+    {
+      "id": "services-car-loans-02",
+      "subject": "car-loans",
+      "workspaceSource": "assets/generated/unique/services-car-loans-02.png",
+      "output": "public/images/generated/services-car-loans-02.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 225824,
+      "pixelSha256": "7d2dd7fa485aea198107103e9ac68b16cc6791a5c7a4feb647e47c7d66ebc391"
+    },
+    {
+      "id": "services-car-loans-03",
+      "subject": "personal-finance",
+      "workspaceSource": "assets/generated/unique/services-car-loans-03.png",
+      "output": "public/images/generated/services-car-loans-03.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 147620,
+      "pixelSha256": "628ef1a8eb942c007e1a740f0746ceac871f59a7aab3b67562f7cb08ea8c34e0"
+    },
+    {
+      "id": "services-car-loans-04",
+      "subject": "car-insurance",
+      "workspaceSource": "assets/generated/unique/services-car-loans-04.png",
+      "output": "public/images/generated/services-car-loans-04.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 217968,
+      "pixelSha256": "331b7c7dc003f9ef621d3d788ead6830973053a5fc5dd0d3f999faa6f06b9500"
+    },
+    {
+      "id": "services-car-loans-05",
+      "subject": "current-accounts",
+      "workspaceSource": "assets/generated/unique/services-car-loans-05.png",
+      "output": "public/images/generated/services-car-loans-05.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 172734,
+      "pixelSha256": "8ec841ab76993b3b2bd7cdb38879a72a6aebff2a4d59f6c6f76fca3969875892"
+    },
+    {
+      "id": "services-mortgages-01",
+      "subject": "mortgages",
+      "workspaceSource": "assets/generated/unique/services-mortgages-01.png",
+      "output": "public/images/generated/services-mortgages-01.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 96732,
+      "pixelSha256": "a4cb42fea3856dcc95a25bb5459203de81945f2c50149afd778612fb29b580b4"
+    },
+    {
+      "id": "services-mortgages-02",
+      "subject": "mortgages",
+      "workspaceSource": "assets/generated/unique/services-mortgages-02.png",
+      "output": "public/images/generated/services-mortgages-02.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 128636,
+      "pixelSha256": "c5995056c70703712d8cf04c431a08ddbf50ac5277aca62c077a293057be1949"
+    },
+    {
+      "id": "services-mortgages-03",
+      "subject": "life-insurance",
+      "workspaceSource": "assets/generated/unique/services-mortgages-03.png",
+      "output": "public/images/generated/services-mortgages-03.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 288192,
+      "pixelSha256": "c8204e063138279b0f6f61f5f063967662ff2bdcbbf0ce1c901571ba24157ef6"
+    },
+    {
+      "id": "services-mortgages-04",
+      "subject": "current-accounts",
+      "workspaceSource": "assets/generated/unique/services-mortgages-04.png",
+      "output": "public/images/generated/services-mortgages-04.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 128846,
+      "pixelSha256": "a694341d739de73153378a63c1e8f8e48c4fc6d5c229ee248892a045be8340ec"
+    },
+    {
+      "id": "services-mortgages-05",
+      "subject": "savings-accounts",
+      "workspaceSource": "assets/generated/unique/services-mortgages-05.png",
+      "output": "public/images/generated/services-mortgages-05.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 118360,
+      "pixelSha256": "f1647990920f79d2cf02cc1515ceb40f432e441ac11211fe3ede3613b5a304be"
+    },
+    {
+      "id": "services-car-insurance-01",
+      "subject": "car-insurance",
+      "workspaceSource": "assets/generated/unique/services-car-insurance-01.png",
+      "output": "public/images/generated/services-car-insurance-01.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 218346,
+      "pixelSha256": "e3268badde498314b9c40efe660a82b27c328656fda94c1553e700d2be836850"
+    },
+    {
+      "id": "services-car-insurance-02",
+      "subject": "car-insurance",
+      "workspaceSource": "assets/generated/unique/services-car-insurance-02.png",
+      "output": "public/images/generated/services-car-insurance-02.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 137808,
+      "pixelSha256": "e53bec45f893ae9f31d1b133f855d27ea392180bc7608002ca889e6a720276b0"
+    },
+    {
+      "id": "services-car-insurance-03",
+      "subject": "car-loans",
+      "workspaceSource": "assets/generated/unique/services-car-insurance-03.png",
+      "output": "public/images/generated/services-car-insurance-03.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 184300,
+      "pixelSha256": "88ce580ea8045a3913b94cd92d75ec1c413bbc84b28de8a775f731289d84198a"
+    },
+    {
+      "id": "services-car-insurance-04",
+      "subject": "life-insurance",
+      "workspaceSource": "assets/generated/unique/services-car-insurance-04.png",
+      "output": "public/images/generated/services-car-insurance-04.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 302268,
+      "pixelSha256": "03192148509fc0a207da4d6eec290f1fe202ec93d6469137f095fb45fd696f0c"
+    },
+    {
+      "id": "services-car-insurance-05",
+      "subject": "current-accounts",
+      "workspaceSource": "assets/generated/unique/services-car-insurance-05.png",
+      "output": "public/images/generated/services-car-insurance-05.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 111402,
+      "pixelSha256": "94d01cb9f2f7024ae6016371419ec4e9588fe2bab615b90e62bb19429c82fb93"
+    },
+    {
+      "id": "services-life-insurance-01",
+      "subject": "life-insurance",
+      "workspaceSource": "assets/generated/unique/services-life-insurance-01.png",
+      "output": "public/images/generated/services-life-insurance-01.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 132646,
+      "pixelSha256": "31207d6abf90be7ea299de9cf10a4f103cf95af38fed71d154223d44fed376bb"
+    },
+    {
+      "id": "services-life-insurance-02",
+      "subject": "life-insurance",
+      "workspaceSource": "assets/generated/unique/services-life-insurance-02.png",
+      "output": "public/images/generated/services-life-insurance-02.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 155030,
+      "pixelSha256": "b1009018ce05998d8ff173312116bd57119c6aa08957198de6d90d8cad4dfffa"
+    },
+    {
+      "id": "services-life-insurance-03",
+      "subject": "mortgages",
+      "workspaceSource": "assets/generated/unique/services-life-insurance-03.png",
+      "output": "public/images/generated/services-life-insurance-03.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 158060,
+      "pixelSha256": "da4baaa80a335efaaffdfbcd5dc54dbf53d459d5e76724fa11484bb6585908ee"
+    },
+    {
+      "id": "services-life-insurance-04",
+      "subject": "car-insurance",
+      "workspaceSource": "assets/generated/unique/services-life-insurance-04.png",
+      "output": "public/images/generated/services-life-insurance-04.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 160306,
+      "pixelSha256": "e18b311a20e4279fa15ddd87da5bb746aef5f2f5bb84e4399386617ec6a3a8ec"
+    },
+    {
+      "id": "services-life-insurance-05",
+      "subject": "savings-accounts",
+      "workspaceSource": "assets/generated/unique/services-life-insurance-05.png",
+      "output": "public/images/generated/services-life-insurance-05.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 103700,
+      "pixelSha256": "e8559194994cfbf679ddb1a65adeb3e8c619598d3262b5ad703ba106683ee5d4"
+    },
+    {
+      "id": "services-current-accounts-01",
+      "subject": "current-accounts",
+      "workspaceSource": "assets/generated/unique/services-current-accounts-01.png",
+      "output": "public/images/generated/services-current-accounts-01.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 271858,
+      "pixelSha256": "69c83cd307d06132790b56c375d07d38d84aeac666ee7b9ad6bce2a09be1e648"
+    },
+    {
+      "id": "services-current-accounts-02",
+      "subject": "current-accounts",
+      "workspaceSource": "assets/generated/unique/services-current-accounts-02.png",
+      "output": "public/images/generated/services-current-accounts-02.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 105256,
+      "pixelSha256": "c687750dd71868617a21cfa03f6a509b8f8a289ade6c11577dab293b1dddddf5"
+    },
+    {
+      "id": "services-current-accounts-03",
+      "subject": "credit-cards",
+      "workspaceSource": "assets/generated/unique/services-current-accounts-03.png",
+      "output": "public/images/generated/services-current-accounts-03.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 130844,
+      "pixelSha256": "96aeac55a170cd2f307cb0ef892d6411fad6b097aa13470e2f554d7d80b7824c"
+    },
+    {
+      "id": "services-current-accounts-04",
+      "subject": "personal-finance",
+      "workspaceSource": "assets/generated/unique/services-current-accounts-04.png",
+      "output": "public/images/generated/services-current-accounts-04.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 148912,
+      "pixelSha256": "45855b3b283e6547e6131437e0eb1fa1706aa87dc6c187bcf5a5c060f7226047"
+    },
+    {
+      "id": "services-current-accounts-05",
+      "subject": "savings-accounts",
+      "workspaceSource": "assets/generated/unique/services-current-accounts-05.png",
+      "output": "public/images/generated/services-current-accounts-05.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 121342,
+      "pixelSha256": "c93b092fc72cd5d9948d4d1c8410f47df9434d37721980c8783283104523c31e"
+    },
+    {
+      "id": "services-savings-accounts-01",
+      "subject": "savings-accounts",
+      "workspaceSource": "assets/generated/unique/services-savings-accounts-01.png",
+      "output": "public/images/generated/services-savings-accounts-01.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 116662,
+      "pixelSha256": "0df817cbb7a7163e5ff541176d3b4e659d22ba1cf34b1af7ccd0dff79ad12790"
+    },
+    {
+      "id": "services-savings-accounts-02",
+      "subject": "savings-accounts",
+      "workspaceSource": "assets/generated/unique/services-savings-accounts-02.png",
+      "output": "public/images/generated/services-savings-accounts-02.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 123670,
+      "pixelSha256": "7a292668236c8b0a0329b5bcd2c4a9a29110caa8ec6d34eeab7c9c333e524c3e"
+    },
+    {
+      "id": "services-savings-accounts-03",
+      "subject": "mortgages",
+      "workspaceSource": "assets/generated/unique/services-savings-accounts-03.png",
+      "output": "public/images/generated/services-savings-accounts-03.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 175262,
+      "pixelSha256": "6f00857c880b79d771a82c29a371a613997d70e54203982f16b5ec1a589944fd"
+    },
+    {
+      "id": "services-savings-accounts-04",
+      "subject": "life-insurance",
+      "workspaceSource": "assets/generated/unique/services-savings-accounts-04.png",
+      "output": "public/images/generated/services-savings-accounts-04.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 162440,
+      "pixelSha256": "22d7337d1c0cd7282ebce120f37893438f48e478082524b3c699b76e42c0b39c"
+    },
+    {
+      "id": "services-savings-accounts-05",
+      "subject": "current-accounts",
+      "workspaceSource": "assets/generated/unique/services-savings-accounts-05.png",
+      "output": "public/images/generated/services-savings-accounts-05.webp",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 208804,
+      "pixelSha256": "9956655832a41082e53b29e5021b4bde1707ca0f19d293eed4c6107eaa807c79"
+    }
+  ]
+}

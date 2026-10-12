@@ -1,0 +1,68 @@
+{
+  "createdAt": "2026-10-12",
+  "mode": "Built-in image_gen; model selector not exposed",
+  "requestedRatio": "2:1 panoramic landscape",
+  "scope": "Six About/Why AMAFH feature-card photographs; matching EN/AR share assets",
+  "assets": [
+    {
+      "previousId": "about-01",
+      "id": "about-01-wide-v2",
+      "page": "about",
+      "slot": 1,
+      "subject": "meeting",
+      "portrait": false,
+      "layout": "wide-card",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: original AMAFH website feature-card photograph, about, slot 1.\nPrimary request: Generate one brand-new panoramic LANDSCAPE photograph in a 2:1 aspect ratio, ideally 2048 pixels wide by 1024 pixels tall. This is a wide horizontal website card, not a portrait, square image, collage or screenshot.\nScene: Two adults, a male financial adviser in charcoal business casual and a mature woman in dusty mauve, seated opposite each other at an oak table discussing a plain unmarked folder. Bright modern Dubai-inspired lounge. Eye-level camera showing the complete upper bodies, both heads and hands, plus enough room around the table.\nComposition: The whole canvas is the photograph. Pull the camera back to show the full scene horizontally. Important people and objects belong inside the central 70% of the canvas, leaving at least 15% safe space above every head and 10% at both sides. No cropped heads, chins, hands or main objects. Never fill the frame with an oversized face. No artificial blurred padding or stretched background. Design the scene natively for the full 2:1 canvas so it does not require a portrait-to-landscape crop.\nStyle: premium, realistic editorial corporate financial-services photography; natural daylight, real-looking skin and textiles, cream and charcoal with restrained dusty mauve and pink/purple accents. All people, properties and financial products are illustrative, not real AMAFH employees or clients.\nAvoid: any lettering, numbers, bank branding, logos, watermarks, readable documents/screens, harsh HDR, duplicate composition from another image."
+    },
+    {
+      "previousId": "about-02",
+      "id": "about-02-wide-v2",
+      "page": "about",
+      "slot": 2,
+      "subject": "dubai",
+      "portrait": false,
+      "layout": "wide-card",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: original AMAFH website feature-card photograph, about, slot 2.\nPrimary request: Generate one brand-new panoramic LANDSCAPE photograph in a 2:1 aspect ratio, ideally 2048 pixels wide by 1024 pixels tall. This is a wide horizontal website card, not a portrait, square image, collage or screenshot.\nScene: A woman wearing a muted lilac headscarf and cream jacket seated on a low bench at a Dubai-inspired waterfront promenade, looking towards the skyline. A dhow and distant contemporary architecture in the background. Wide environmental composition, full head and complete seated torso visible with generous sky above; the person occupies only one third of the width.\nComposition: The whole canvas is the photograph. Pull the camera back to show the full scene horizontally. Important people and objects belong inside the central 70% of the canvas, leaving at least 15% safe space above every head and 10% at both sides. No cropped heads, chins, hands or main objects. Never fill the frame with an oversized face. No artificial blurred padding or stretched background. Design the scene natively for the full 2:1 canvas so it does not require a portrait-to-landscape crop.\nStyle: premium, realistic editorial corporate financial-services photography; natural daylight, real-looking skin and textiles, cream and charcoal with restrained dusty mauve and pink/purple accents. All people, properties and financial products are illustrative, not real AMAFH employees or clients.\nAvoid: any lettering, numbers, bank branding, logos, watermarks, readable documents/screens, harsh HDR, duplicate composition from another image."
+    },
+    {
+      "previousId": "about-03",
+      "id": "about-03-wide-v2",
+      "page": "about",
+      "slot": 3,
+      "subject": "mortgages",
+      "portrait": false,
+      "layout": "wide-card",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: original AMAFH website feature-card photograph, about, slot 3.\nPrimary request: Generate one brand-new panoramic LANDSCAPE photograph in a 2:1 aspect ratio, ideally 2048 pixels wide by 1024 pixels tall. This is a wide horizontal website card, not a portrait, square image, collage or screenshot.\nScene: A young family of three sitting together on a cream sofa in a sunlit new home, the child between the two adults holding a simple wooden house model. Pale stone, a mauve cushion, plants and a generous view of the room. All three full heads, hands and upper bodies visible at similar heights. Eye-level wide camera.\nComposition: The whole canvas is the photograph. Pull the camera back to show the full scene horizontally. Important people and objects belong inside the central 70% of the canvas, leaving at least 15% safe space above every head and 10% at both sides. No cropped heads, chins, hands or main objects. Never fill the frame with an oversized face. No artificial blurred padding or stretched background. Design the scene natively for the full 2:1 canvas so it does not require a portrait-to-landscape crop.\nStyle: premium, realistic editorial corporate financial-services photography; natural daylight, real-looking skin and textiles, cream and charcoal with restrained dusty mauve and pink/purple accents. All people, properties and financial products are illustrative, not real AMAFH employees or clients.\nAvoid: any lettering, numbers, bank branding, logos, watermarks, readable documents/screens, harsh HDR, duplicate composition from another image."
+    },
+    {
+      "previousId": "why-amafh-02",
+      "id": "why-amafh-02-wide-v2",
+      "page": "why-amafh",
+      "slot": 2,
+      "subject": "meeting",
+      "portrait": false,
+      "layout": "wide-card",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: original AMAFH website feature-card photograph, why-amafh, slot 2.\nPrimary request: Generate one brand-new panoramic LANDSCAPE photograph in a 2:1 aspect ratio, ideally 2048 pixels wide by 1024 pixels tall. This is a wide horizontal website card, not a portrait, square image, collage or screenshot.\nScene: A couple and a female adviser seated around a round stone table in a modern consultation space, listening and discussing a plain notebook. Charcoal, cream and dusty pink clothing. Horizontal eye-level three-person composition, all heads fully visible with space above and all hands safely within the frame; no overhead camera.\nComposition: The whole canvas is the photograph. Pull the camera back to show the full scene horizontally. Important people and objects belong inside the central 70% of the canvas, leaving at least 15% safe space above every head and 10% at both sides. No cropped heads, chins, hands or main objects. Never fill the frame with an oversized face. No artificial blurred padding or stretched background. Design the scene natively for the full 2:1 canvas so it does not require a portrait-to-landscape crop.\nStyle: premium, realistic editorial corporate financial-services photography; natural daylight, real-looking skin and textiles, cream and charcoal with restrained dusty mauve and pink/purple accents. All people, properties and financial products are illustrative, not real AMAFH employees or clients.\nAvoid: any lettering, numbers, bank branding, logos, watermarks, readable documents/screens, harsh HDR, duplicate composition from another image."
+    },
+    {
+      "previousId": "why-amafh-03",
+      "id": "why-amafh-03-wide-v2",
+      "page": "why-amafh",
+      "slot": 3,
+      "subject": "dubai",
+      "portrait": false,
+      "layout": "wide-card",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: original AMAFH website feature-card photograph, why-amafh, slot 3.\nPrimary request: Generate one brand-new panoramic LANDSCAPE photograph in a 2:1 aspect ratio, ideally 2048 pixels wide by 1024 pixels tall. This is a wide horizontal website card, not a portrait, square image, collage or screenshot.\nScene: A professional woman in a cream blazer in a spacious Dubai-inspired lobby, near large windows with a distant city skyline and subtle architectural screens. She stands naturally beside a lounge chair, photographed from the waist up in a wide environmental composition, her entire head visible and ample open architecture on both sides.\nComposition: The whole canvas is the photograph. Pull the camera back to show the full scene horizontally. Important people and objects belong inside the central 70% of the canvas, leaving at least 15% safe space above every head and 10% at both sides. No cropped heads, chins, hands or main objects. Never fill the frame with an oversized face. No artificial blurred padding or stretched background. Design the scene natively for the full 2:1 canvas so it does not require a portrait-to-landscape crop.\nStyle: premium, realistic editorial corporate financial-services photography; natural daylight, real-looking skin and textiles, cream and charcoal with restrained dusty mauve and pink/purple accents. All people, properties and financial products are illustrative, not real AMAFH employees or clients.\nAvoid: any lettering, numbers, bank branding, logos, watermarks, readable documents/screens, harsh HDR, duplicate composition from another image."
+    },
+    {
+      "previousId": "why-amafh-04",
+      "id": "why-amafh-04-wide-v2",
+      "page": "why-amafh",
+      "slot": 4,
+      "subject": "mortgages",
+      "portrait": false,
+      "layout": "wide-card",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: original AMAFH website feature-card photograph, why-amafh, slot 4.\nPrimary request: Generate one brand-new panoramic LANDSCAPE photograph in a 2:1 aspect ratio, ideally 2048 pixels wide by 1024 pixels tall. This is a wide horizontal website card, not a portrait, square image, collage or screenshot.\nScene: Two parents and two school-age children seated together at a dining table in a bright cream kitchen, enjoying a quiet family breakfast. Dusty mauve upholstery and natural wood. All four faces at comfortably similar heights, all heads fully inside the scene with generous space above. Wide eye-level environmental photography, table and family entirely within the central composition.\nComposition: The whole canvas is the photograph. Pull the camera back to show the full scene horizontally. Important people and objects belong inside the central 70% of the canvas, leaving at least 15% safe space above every head and 10% at both sides. No cropped heads, chins, hands or main objects. Never fill the frame with an oversized face. No artificial blurred padding or stretched background. Design the scene natively for the full 2:1 canvas so it does not require a portrait-to-landscape crop.\nStyle: premium, realistic editorial corporate financial-services photography; natural daylight, real-looking skin and textiles, cream and charcoal with restrained dusty mauve and pink/purple accents. All people, properties and financial products are illustrative, not real AMAFH employees or clients.\nAvoid: any lettering, numbers, bank branding, logos, watermarks, readable documents/screens, harsh HDR, duplicate composition from another image."
+    }
+  ]
+}

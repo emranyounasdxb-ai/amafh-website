@@ -1,0 +1,870 @@
+{
+  "generator": "Built-in image generation tool; model selector is not exposed.",
+  "translationPolicy": "Matching English/Arabic page designs share the same images.",
+  "assets": [
+    {
+      "id": "home-12",
+      "subject": "mortgages",
+      "page": "",
+      "slot": 12,
+      "portrait": false,
+      "source": "assets/generated/unique/home-12.png"
+    },
+    {
+      "id": "about-01",
+      "subject": "meeting",
+      "page": "about",
+      "slot": 1,
+      "portrait": false,
+      "source": "assets/generated/unique/about-01.png"
+    },
+    {
+      "id": "about-02",
+      "subject": "dubai",
+      "page": "about",
+      "slot": 2,
+      "portrait": true,
+      "source": "assets/generated/unique/about-02.png"
+    },
+    {
+      "id": "about-03",
+      "subject": "mortgages",
+      "page": "about",
+      "slot": 3,
+      "portrait": false,
+      "source": "assets/generated/unique/about-03.png"
+    },
+    {
+      "id": "about-04",
+      "subject": "approach",
+      "page": "about",
+      "slot": 4,
+      "portrait": true,
+      "source": "assets/generated/unique/about-04.png"
+    },
+    {
+      "id": "about-05",
+      "subject": "approach",
+      "page": "about",
+      "slot": 5,
+      "portrait": true,
+      "source": "assets/generated/unique/about-05.png"
+    },
+    {
+      "id": "why-amafh-01",
+      "subject": "dubai",
+      "page": "why-amafh",
+      "slot": 1,
+      "portrait": true,
+      "source": "assets/generated/unique/why-amafh-01.png"
+    },
+    {
+      "id": "why-amafh-02",
+      "subject": "meeting",
+      "page": "why-amafh",
+      "slot": 2,
+      "portrait": false,
+      "source": "assets/generated/unique/why-amafh-02.png"
+    },
+    {
+      "id": "why-amafh-03",
+      "subject": "dubai",
+      "page": "why-amafh",
+      "slot": 3,
+      "portrait": true,
+      "source": "assets/generated/unique/why-amafh-03.png"
+    },
+    {
+      "id": "why-amafh-04",
+      "subject": "mortgages",
+      "page": "why-amafh",
+      "slot": 4,
+      "portrait": false,
+      "source": "assets/generated/unique/why-amafh-04.png"
+    },
+    {
+      "id": "why-amafh-05",
+      "subject": "meeting",
+      "page": "why-amafh",
+      "slot": 5,
+      "portrait": false,
+      "source": "assets/generated/unique/why-amafh-05.png"
+    },
+    {
+      "id": "our-approach-01",
+      "subject": "meeting",
+      "page": "our-approach",
+      "slot": 1,
+      "portrait": false,
+      "source": "assets/generated/unique/our-approach-01.png"
+    },
+    {
+      "id": "our-approach-02",
+      "subject": "mortgages",
+      "page": "our-approach",
+      "slot": 2,
+      "portrait": false,
+      "source": "assets/generated/unique/our-approach-02.png"
+    },
+    {
+      "id": "our-approach-03",
+      "subject": "approach",
+      "page": "our-approach",
+      "slot": 3,
+      "portrait": true,
+      "source": "assets/generated/unique/our-approach-03.png"
+    },
+    {
+      "id": "how-it-works-01",
+      "subject": "meeting",
+      "page": "how-it-works",
+      "slot": 1,
+      "portrait": false,
+      "source": "assets/generated/unique/how-it-works-01.png"
+    },
+    {
+      "id": "partners-01",
+      "subject": "dubai",
+      "page": "partners",
+      "slot": 1,
+      "portrait": true,
+      "source": "assets/generated/unique/partners-01.png"
+    },
+    {
+      "id": "contact-01",
+      "subject": "dubai",
+      "page": "contact",
+      "slot": 1,
+      "portrait": true,
+      "source": "assets/generated/unique/contact-01.png"
+    },
+    {
+      "id": "contact-02",
+      "subject": "approach",
+      "page": "contact",
+      "slot": 2,
+      "portrait": true,
+      "source": "assets/generated/unique/contact-02.png"
+    },
+    {
+      "id": "services-01",
+      "subject": "credit-cards",
+      "page": "services",
+      "slot": 1,
+      "portrait": false,
+      "source": "assets/generated/unique/services-01.png"
+    },
+    {
+      "id": "services-02",
+      "subject": "personal-finance",
+      "page": "services",
+      "slot": 2,
+      "portrait": false,
+      "source": "assets/generated/unique/services-02.png"
+    },
+    {
+      "id": "services-03",
+      "subject": "car-loans",
+      "page": "services",
+      "slot": 3,
+      "portrait": false,
+      "source": "assets/generated/unique/services-03.png"
+    },
+    {
+      "id": "services-04",
+      "subject": "mortgages",
+      "page": "services",
+      "slot": 4,
+      "portrait": false,
+      "source": "assets/generated/unique/services-04.png"
+    },
+    {
+      "id": "services-05",
+      "subject": "car-insurance",
+      "page": "services",
+      "slot": 5,
+      "portrait": false,
+      "source": "assets/generated/unique/services-05.png"
+    },
+    {
+      "id": "services-06",
+      "subject": "life-insurance",
+      "page": "services",
+      "slot": 6,
+      "portrait": false,
+      "source": "assets/generated/unique/services-06.png"
+    },
+    {
+      "id": "services-07",
+      "subject": "current-accounts",
+      "page": "services",
+      "slot": 7,
+      "portrait": false,
+      "source": "assets/generated/unique/services-07.png"
+    },
+    {
+      "id": "services-08",
+      "subject": "savings-accounts",
+      "page": "services",
+      "slot": 8,
+      "portrait": false,
+      "source": "assets/generated/unique/services-08.png"
+    },
+    {
+      "id": "services-09",
+      "subject": "meeting",
+      "page": "services",
+      "slot": 9,
+      "portrait": false,
+      "source": "assets/generated/unique/services-09.png"
+    },
+    {
+      "id": "services-finance-01",
+      "subject": "credit-cards",
+      "page": "services/finance",
+      "slot": 1,
+      "portrait": false,
+      "source": "assets/generated/unique/services-finance-01.png"
+    },
+    {
+      "id": "services-finance-02",
+      "subject": "personal-finance",
+      "page": "services/finance",
+      "slot": 2,
+      "portrait": false,
+      "source": "assets/generated/unique/services-finance-02.png"
+    },
+    {
+      "id": "services-finance-03",
+      "subject": "car-loans",
+      "page": "services/finance",
+      "slot": 3,
+      "portrait": false,
+      "source": "assets/generated/unique/services-finance-03.png"
+    },
+    {
+      "id": "services-finance-04",
+      "subject": "mortgages",
+      "page": "services/finance",
+      "slot": 4,
+      "portrait": false,
+      "source": "assets/generated/unique/services-finance-04.png"
+    },
+    {
+      "id": "services-finance-05",
+      "subject": "personal-finance",
+      "page": "services/finance",
+      "slot": 5,
+      "portrait": false,
+      "source": "assets/generated/unique/services-finance-05.png"
+    },
+    {
+      "id": "services-insurance-01",
+      "subject": "car-insurance",
+      "page": "services/insurance",
+      "slot": 1,
+      "portrait": false,
+      "source": "assets/generated/unique/services-insurance-01.png"
+    },
+    {
+      "id": "services-insurance-02",
+      "subject": "life-insurance",
+      "page": "services/insurance",
+      "slot": 2,
+      "portrait": false,
+      "source": "assets/generated/unique/services-insurance-02.png"
+    },
+    {
+      "id": "services-insurance-03",
+      "subject": "life-insurance",
+      "page": "services/insurance",
+      "slot": 3,
+      "portrait": false,
+      "source": "assets/generated/unique/services-insurance-03.png"
+    },
+    {
+      "id": "services-accounts-01",
+      "subject": "current-accounts",
+      "page": "services/accounts",
+      "slot": 1,
+      "portrait": false,
+      "source": "assets/generated/unique/services-accounts-01.png"
+    },
+    {
+      "id": "services-accounts-02",
+      "subject": "savings-accounts",
+      "page": "services/accounts",
+      "slot": 2,
+      "portrait": false,
+      "source": "assets/generated/unique/services-accounts-02.png"
+    },
+    {
+      "id": "services-accounts-03",
+      "subject": "current-accounts",
+      "page": "services/accounts",
+      "slot": 3,
+      "portrait": false,
+      "source": "assets/generated/unique/services-accounts-03.png"
+    },
+    {
+      "id": "services-credit-cards-01",
+      "subject": "credit-cards",
+      "page": "services/credit-cards",
+      "slot": 1,
+      "portrait": false,
+      "source": "assets/generated/unique/services-credit-cards-01.png"
+    },
+    {
+      "id": "services-credit-cards-02",
+      "subject": "credit-cards",
+      "page": "services/credit-cards",
+      "slot": 2,
+      "portrait": false,
+      "source": "assets/generated/unique/services-credit-cards-02.png"
+    },
+    {
+      "id": "services-credit-cards-03",
+      "subject": "personal-finance",
+      "page": "services/credit-cards",
+      "slot": 3,
+      "portrait": false,
+      "source": "assets/generated/unique/services-credit-cards-03.png"
+    },
+    {
+      "id": "services-credit-cards-04",
+      "subject": "current-accounts",
+      "page": "services/credit-cards",
+      "slot": 4,
+      "portrait": false,
+      "source": "assets/generated/unique/services-credit-cards-04.png"
+    },
+    {
+      "id": "services-credit-cards-05",
+      "subject": "savings-accounts",
+      "page": "services/credit-cards",
+      "slot": 5,
+      "portrait": false,
+      "source": "assets/generated/unique/services-credit-cards-05.png"
+    },
+    {
+      "id": "services-personal-finance-01",
+      "subject": "personal-finance",
+      "page": "services/personal-finance",
+      "slot": 1,
+      "portrait": false,
+      "source": "assets/generated/unique/services-personal-finance-01.png"
+    },
+    {
+      "id": "services-personal-finance-02",
+      "subject": "personal-finance",
+      "page": "services/personal-finance",
+      "slot": 2,
+      "portrait": false,
+      "source": "assets/generated/unique/services-personal-finance-02.png"
+    },
+    {
+      "id": "services-personal-finance-03",
+      "subject": "credit-cards",
+      "page": "services/personal-finance",
+      "slot": 3,
+      "portrait": false,
+      "source": "assets/generated/unique/services-personal-finance-03.png"
+    },
+    {
+      "id": "services-personal-finance-04",
+      "subject": "car-loans",
+      "page": "services/personal-finance",
+      "slot": 4,
+      "portrait": false,
+      "source": "assets/generated/unique/services-personal-finance-04.png"
+    },
+    {
+      "id": "services-personal-finance-05",
+      "subject": "mortgages",
+      "page": "services/personal-finance",
+      "slot": 5,
+      "portrait": false,
+      "source": "assets/generated/unique/services-personal-finance-05.png"
+    },
+    {
+      "id": "services-car-loans-01",
+      "subject": "car-loans",
+      "page": "services/car-loans",
+      "slot": 1,
+      "portrait": false,
+      "source": "assets/generated/unique/services-car-loans-01.png"
+    },
+    {
+      "id": "services-car-loans-02",
+      "subject": "car-loans",
+      "page": "services/car-loans",
+      "slot": 2,
+      "portrait": false,
+      "source": "assets/generated/unique/services-car-loans-02.png"
+    },
+    {
+      "id": "services-car-loans-03",
+      "subject": "personal-finance",
+      "page": "services/car-loans",
+      "slot": 3,
+      "portrait": false,
+      "source": "assets/generated/unique/services-car-loans-03.png"
+    },
+    {
+      "id": "services-car-loans-04",
+      "subject": "car-insurance",
+      "page": "services/car-loans",
+      "slot": 4,
+      "portrait": false,
+      "source": "assets/generated/unique/services-car-loans-04.png"
+    },
+    {
+      "id": "services-car-loans-05",
+      "subject": "current-accounts",
+      "page": "services/car-loans",
+      "slot": 5,
+      "portrait": false,
+      "source": "assets/generated/unique/services-car-loans-05.png"
+    },
+    {
+      "id": "services-mortgages-01",
+      "subject": "mortgages",
+      "page": "services/mortgages",
+      "slot": 1,
+      "portrait": false,
+      "source": "assets/generated/unique/services-mortgages-01.png"
+    },
+    {
+      "id": "services-mortgages-02",
+      "subject": "mortgages",
+      "page": "services/mortgages",
+      "slot": 2,
+      "portrait": false,
+      "source": "assets/generated/unique/services-mortgages-02.png"
+    },
+    {
+      "id": "services-mortgages-03",
+      "subject": "life-insurance",
+      "page": "services/mortgages",
+      "slot": 3,
+      "portrait": false,
+      "source": "assets/generated/unique/services-mortgages-03.png"
+    },
+    {
+      "id": "services-mortgages-04",
+      "subject": "current-accounts",
+      "page": "services/mortgages",
+      "slot": 4,
+      "portrait": false,
+      "source": "assets/generated/unique/services-mortgages-04.png"
+    },
+    {
+      "id": "services-mortgages-05",
+      "subject": "savings-accounts",
+      "page": "services/mortgages",
+      "slot": 5,
+      "portrait": false,
+      "source": "assets/generated/unique/services-mortgages-05.png"
+    },
+    {
+      "id": "services-car-insurance-01",
+      "subject": "car-insurance",
+      "page": "services/car-insurance",
+      "slot": 1,
+      "portrait": false,
+      "source": "assets/generated/unique/services-car-insurance-01.png"
+    },
+    {
+      "id": "services-car-insurance-02",
+      "subject": "car-insurance",
+      "page": "services/car-insurance",
+      "slot": 2,
+      "portrait": false,
+      "source": "assets/generated/unique/services-car-insurance-02.png"
+    },
+    {
+      "id": "services-car-insurance-03",
+      "subject": "car-loans",
+      "page": "services/car-insurance",
+      "slot": 3,
+      "portrait": false,
+      "source": "assets/generated/unique/services-car-insurance-03.png"
+    },
+    {
+      "id": "services-car-insurance-04",
+      "subject": "life-insurance",
+      "page": "services/car-insurance",
+      "slot": 4,
+      "portrait": false,
+      "source": "assets/generated/unique/services-car-insurance-04.png"
+    },
+    {
+      "id": "services-car-insurance-05",
+      "subject": "current-accounts",
+      "page": "services/car-insurance",
+      "slot": 5,
+      "portrait": false,
+      "source": "assets/generated/unique/services-car-insurance-05.png"
+    },
+    {
+      "id": "services-life-insurance-01",
+      "subject": "life-insurance",
+      "page": "services/life-insurance",
+      "slot": 1,
+      "portrait": false,
+      "source": "assets/generated/unique/services-life-insurance-01.png"
+    },
+    {
+      "id": "services-life-insurance-02",
+      "subject": "life-insurance",
+      "page": "services/life-insurance",
+      "slot": 2,
+      "portrait": false,
+      "source": "assets/generated/unique/services-life-insurance-02.png"
+    },
+    {
+      "id": "services-life-insurance-03",
+      "subject": "mortgages",
+      "page": "services/life-insurance",
+      "slot": 3,
+      "portrait": false,
+      "source": "assets/generated/unique/services-life-insurance-03.png"
+    },
+    {
+      "id": "services-life-insurance-04",
+      "subject": "car-insurance",
+      "page": "services/life-insurance",
+      "slot": 4,
+      "portrait": false,
+      "source": "assets/generated/unique/services-life-insurance-04.png"
+    },
+    {
+      "id": "services-life-insurance-05",
+      "subject": "savings-accounts",
+      "page": "services/life-insurance",
+      "slot": 5,
+      "portrait": false,
+      "source": "assets/generated/unique/services-life-insurance-05.png"
+    },
+    {
+      "id": "services-current-accounts-01",
+      "subject": "current-accounts",
+      "page": "services/current-accounts",
+      "slot": 1,
+      "portrait": false,
+      "source": "assets/generated/unique/services-current-accounts-01.png"
+    },
+    {
+      "id": "services-current-accounts-02",
+      "subject": "current-accounts",
+      "page": "services/current-accounts",
+      "slot": 2,
+      "portrait": false,
+      "source": "assets/generated/unique/services-current-accounts-02.png"
+    },
+    {
+      "id": "services-current-accounts-03",
+      "subject": "credit-cards",
+      "page": "services/current-accounts",
+      "slot": 3,
+      "portrait": false,
+      "source": "assets/generated/unique/services-current-accounts-03.png"
+    },
+    {
+      "id": "services-current-accounts-04",
+      "subject": "personal-finance",
+      "page": "services/current-accounts",
+      "slot": 4,
+      "portrait": false,
+      "source": "assets/generated/unique/services-current-accounts-04.png"
+    },
+    {
+      "id": "services-current-accounts-05",
+      "subject": "savings-accounts",
+      "page": "services/current-accounts",
+      "slot": 5,
+      "portrait": false,
+      "source": "assets/generated/unique/services-current-accounts-05.png"
+    },
+    {
+      "id": "services-savings-accounts-01",
+      "subject": "savings-accounts",
+      "page": "services/savings-accounts",
+      "slot": 1,
+      "portrait": false,
+      "source": "assets/generated/unique/services-savings-accounts-01.png"
+    },
+    {
+      "id": "services-savings-accounts-02",
+      "subject": "savings-accounts",
+      "page": "services/savings-accounts",
+      "slot": 2,
+      "portrait": false,
+      "source": "assets/generated/unique/services-savings-accounts-02.png"
+    },
+    {
+      "id": "services-savings-accounts-03",
+      "subject": "mortgages",
+      "page": "services/savings-accounts",
+      "slot": 3,
+      "portrait": false,
+      "source": "assets/generated/unique/services-savings-accounts-03.png"
+    },
+    {
+      "id": "services-savings-accounts-04",
+      "subject": "life-insurance",
+      "page": "services/savings-accounts",
+      "slot": 4,
+      "portrait": false,
+      "source": "assets/generated/unique/services-savings-accounts-04.png"
+    },
+    {
+      "id": "services-savings-accounts-05",
+      "subject": "current-accounts",
+      "page": "services/savings-accounts",
+      "slot": 5,
+      "portrait": false,
+      "source": "assets/generated/unique/services-savings-accounts-05.png"
+    },
+    {
+      "id": "about-01-wide-v2",
+      "previousId": "about-01",
+      "subject": "meeting",
+      "page": "about",
+      "slot": 1,
+      "portrait": false,
+      "layout": "wide-card",
+      "source": "assets/generated/unique/about-01-wide-v2.png"
+    },
+    {
+      "id": "about-02-wide-v2",
+      "previousId": "about-02",
+      "subject": "dubai",
+      "page": "about",
+      "slot": 2,
+      "portrait": false,
+      "layout": "wide-card",
+      "source": "assets/generated/unique/about-02-wide-v2.png"
+    },
+    {
+      "id": "about-03-wide-v2",
+      "previousId": "about-03",
+      "subject": "mortgages",
+      "page": "about",
+      "slot": 3,
+      "portrait": false,
+      "layout": "wide-card",
+      "source": "assets/generated/unique/about-03-wide-v2.png"
+    },
+    {
+      "id": "why-amafh-02-wide-v2",
+      "previousId": "why-amafh-02",
+      "subject": "meeting",
+      "page": "why-amafh",
+      "slot": 2,
+      "portrait": false,
+      "layout": "wide-card",
+      "source": "assets/generated/unique/why-amafh-02-wide-v2.png"
+    },
+    {
+      "id": "why-amafh-03-wide-v2",
+      "previousId": "why-amafh-03",
+      "subject": "dubai",
+      "page": "why-amafh",
+      "slot": 3,
+      "portrait": false,
+      "layout": "wide-card",
+      "source": "assets/generated/unique/why-amafh-03-wide-v2.png"
+    },
+    {
+      "id": "why-amafh-04-wide-v2",
+      "previousId": "why-amafh-04",
+      "subject": "mortgages",
+      "page": "why-amafh",
+      "slot": 4,
+      "portrait": false,
+      "layout": "wide-card",
+      "source": "assets/generated/unique/why-amafh-04-wide-v2.png"
+    },
+    {
+      "id": "hero-fit-v3",
+      "previousId": "hero",
+      "subject": "hero",
+      "page": "",
+      "slot": 1,
+      "portrait": true,
+      "layout": "portrait",
+      "source": "assets/generated/unique/hero-fit-v3.png"
+    },
+    {
+      "id": "home-12-fit-v3",
+      "previousId": "home-12",
+      "subject": "mortgages",
+      "page": "",
+      "slot": 12,
+      "portrait": false,
+      "layout": "panorama",
+      "source": "assets/generated/unique/home-12-fit-v3.png"
+    },
+    {
+      "id": "contact-01-fit-v3",
+      "previousId": "contact-01",
+      "subject": "dubai",
+      "page": "contact",
+      "slot": 1,
+      "portrait": false,
+      "layout": "wide-card",
+      "source": "assets/generated/unique/contact-01-fit-v3.png"
+    },
+    {
+      "id": "credit-cards-fit-v3",
+      "previousId": "credit-cards",
+      "subject": "credit-cards",
+      "page": "",
+      "slot": 3,
+      "portrait": false,
+      "layout": "wide-card",
+      "source": "assets/generated/unique/credit-cards-fit-v3.png"
+    },
+    {
+      "id": "personal-finance-fit-v3",
+      "previousId": "personal-finance",
+      "subject": "personal-finance",
+      "page": "",
+      "slot": 4,
+      "portrait": false,
+      "layout": "wide-card",
+      "source": "assets/generated/unique/personal-finance-fit-v3.png"
+    },
+    {
+      "id": "car-loans-fit-v3",
+      "previousId": "car-loans",
+      "subject": "car-loans",
+      "page": "",
+      "slot": 5,
+      "portrait": false,
+      "layout": "wide-card",
+      "source": "assets/generated/unique/car-loans-fit-v3.png"
+    },
+    {
+      "id": "mortgages-fit-v3",
+      "previousId": "mortgages",
+      "subject": "mortgages",
+      "page": "",
+      "slot": 6,
+      "portrait": false,
+      "layout": "wide-card",
+      "source": "assets/generated/unique/mortgages-fit-v3.png"
+    },
+    {
+      "id": "car-insurance-fit-v3",
+      "previousId": "car-insurance",
+      "subject": "car-insurance",
+      "page": "",
+      "slot": 7,
+      "portrait": false,
+      "layout": "wide-card",
+      "source": "assets/generated/unique/car-insurance-fit-v3.png"
+    },
+    {
+      "id": "life-insurance-fit-v3",
+      "previousId": "life-insurance",
+      "subject": "life-insurance",
+      "page": "",
+      "slot": 8,
+      "portrait": false,
+      "layout": "wide-card",
+      "source": "assets/generated/unique/life-insurance-fit-v3.png"
+    },
+    {
+      "id": "current-accounts-fit-v3",
+      "previousId": "current-accounts",
+      "subject": "current-accounts",
+      "page": "",
+      "slot": 9,
+      "portrait": false,
+      "layout": "wide-card",
+      "source": "assets/generated/unique/current-accounts-fit-v3.png"
+    },
+    {
+      "id": "savings-accounts-fit-v3",
+      "previousId": "savings-accounts",
+      "subject": "savings-accounts",
+      "page": "",
+      "slot": 10,
+      "portrait": false,
+      "layout": "wide-card",
+      "source": "assets/generated/unique/savings-accounts-fit-v3.png"
+    },
+    {
+      "id": "meeting-fit-v3",
+      "previousId": "meeting",
+      "subject": "meeting",
+      "page": "",
+      "slot": 13,
+      "portrait": true,
+      "layout": "portrait",
+      "source": "assets/generated/unique/meeting-fit-v3.png"
+    },
+    {
+      "id": "why-amafh-05-fit-v3",
+      "previousId": "why-amafh-05",
+      "subject": "meeting",
+      "page": "why-amafh",
+      "slot": 5,
+      "portrait": true,
+      "layout": "portrait",
+      "source": "assets/generated/unique/why-amafh-05-fit-v3.png"
+    },
+    {
+      "id": "how-it-works-01-fit-v3",
+      "previousId": "how-it-works-01",
+      "subject": "meeting",
+      "page": "how-it-works",
+      "slot": 1,
+      "portrait": true,
+      "layout": "portrait",
+      "source": "assets/generated/unique/how-it-works-01-fit-v3.png"
+    },
+    {
+      "id": "services-09-fit-v3",
+      "previousId": "services-09",
+      "subject": "meeting",
+      "page": "services",
+      "slot": 9,
+      "portrait": true,
+      "layout": "portrait",
+      "source": "assets/generated/unique/services-09-fit-v3.png"
+    },
+    {
+      "id": "services-finance-05-fit-v3",
+      "previousId": "services-finance-05",
+      "subject": "personal-finance",
+      "page": "services/finance",
+      "slot": 5,
+      "portrait": true,
+      "layout": "portrait",
+      "source": "assets/generated/unique/services-finance-05-fit-v3.png"
+    },
+    {
+      "id": "services-insurance-03-fit-v3",
+      "previousId": "services-insurance-03",
+      "subject": "life-insurance",
+      "page": "services/insurance",
+      "slot": 3,
+      "portrait": true,
+      "layout": "portrait",
+      "source": "assets/generated/unique/services-insurance-03-fit-v3.png"
+    },
+    {
+      "id": "services-accounts-03-fit-v3",
+      "previousId": "services-accounts-03",
+      "subject": "current-accounts",
+      "page": "services/accounts",
+      "slot": 3,
+      "portrait": true,
+      "layout": "portrait",
+      "source": "assets/generated/unique/services-accounts-03-fit-v3.png"
+    }
+  ]
+}
