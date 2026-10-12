@@ -1,0 +1,26 @@
+name: FTP Connection Check
+
+on:
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  connection:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Check secure FTP login
+        env:
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          FTP_PORT: ${{ secrets.FTP_PORT }}
+        run: |
+          curl --fail --silent --show-error \
+            --ssl-reqd --ftp-pasv --list-only \
+            --connect-timeout 20 --max-time 60 \
+            --user "$FTP_USERNAME:$FTP_PASSWORD" \
+            "ftp://$FTP_SERVER:$FTP_PORT/" \
+            --output /dev/null
+          echo "FTPS connection and login successful."
