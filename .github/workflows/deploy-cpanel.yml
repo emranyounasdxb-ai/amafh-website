@@ -1,0 +1,58 @@
+name: cPanel FTPS Deployment
+
+on:
+  workflow_dispatch:
+    inputs:
+      deploy:
+        description: Upload the production website (false only inspects hosting)
+        type: boolean
+        default: false
+
+permissions: {}
+
+concurrency:
+  group: amafh-cpanel-production
+  cancel-in-progress: false
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Inspect FTPS root without changing server files
+        env:
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          FTP_PORT: ${{ secrets.FTP_PORT }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/hosting-preflight"
+          curl --fail --silent --show-error \
+            --ssl-reqd --ftp-pasv --list-only \
+            --connect-timeout 20 --max-time 60 \
+            --user "$FTP_USERNAME:$FTP_PASSWORD" \
+            "ftp://$FTP_SERVER:$FTP_PORT/" \
+            --output "$RUNNER_TEMP/hosting-preflight/root-files.txt"
+          echo "Files in the FTP account root:"
+          cat "$RUNNER_TEMP/hosting-preflight/root-files.txt"
+          set +e
+          curl --fail --silent --show-error \
+            --ssl-reqd --ftp-pasv \
+            --connect-timeout 20 --max-time 60 \
+            --user "$FTP_USERNAME:$FTP_PASSWORD" \
+            "ftp://$FTP_SERVER:$FTP_PORT/.htaccess" \
+            --output "$RUNNER_TEMP/hosting-preflight/existing.htaccess"
+          result=$?
+          set -e
+          if [ "$result" -eq 78 ]; then
+            echo "No existing .htaccess in the FTP root."
+          elif [ "$result" -ne 0 ]; then
+            exit "$result"
+          fi
+      - name: Save hosting inspection
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: hosting-preflight
+          path: ${{ runner.temp }}/hosting-preflight
+          retention-days: 7
+          include-hidden-files: true
