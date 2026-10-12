@@ -103,7 +103,7 @@ async function deploy(release) {
       await fs.writeFile(config, batch.map(file =>
         `url = ${configQuote(ftpRoot + file.path.split('/').map(encodeURIComponent).join('/'))}\n` +
         `upload-file = ${configQuote(path.join(releaseRoot, file.path))}\n`).join(''), { mode: 0o600 });
-      await curl(['--parallel', '--parallel-max', '4', '--fail-early', '--ftp-create-dirs',
+      await curl(['--fail-early', '--ftp-create-dirs',
         '--retry', '2', '--retry-delay', '2', '--config', config]);
       console.log(`${label}: uploaded ${Math.min(start + batch.length, files.length)}/${files.length} files.`);
     }
