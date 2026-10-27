@@ -80,6 +80,7 @@ jobs:
         env:
           VITE_SITE_INDEXABLE: 'true'
         run: |
+          node --test scripts/hosting-config.test.mjs
           npm run build
           npm run check
           node scripts/prepare-cpanel-release.mjs

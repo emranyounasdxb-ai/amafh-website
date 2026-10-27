@@ -1,4 +1,5 @@
 import fs from 'node:fs/promises';
+import { mergeHostingConfig } from './hosting-config.mjs';
 import { pages } from '../../src/routes.ts';
 import path from 'node:path';
 import os from 'node:os';
@@ -11,9 +12,6 @@ const exec = promisify(execFile);
 const origin = 'https://amafhdubai.ae';
 const releaseRoot = path.resolve('dist');
 const evidenceRoot = path.resolve('artifacts/deployment');
-const approvedHostingConfig = 'bfb806291904a4fdbb2126804ef489c27404bd5c2095cef9142bbac9fee6037b';
-const beginMarker = '\n# BEGIN AMAFH STATIC WEBSITE\n';
-const endMarker = '# END AMAFH STATIC WEBSITE\n';
 const sha256 = bytes => createHash('sha256').update(bytes).digest('hex');
 const configQuote = value => `"${value.replaceAll('\\', '\\\\').replaceAll('"', '\\"')}"`;
 
@@ -118,11 +116,8 @@ async function deploy(release) {
     const originalPath = path.join(evidenceRoot, 'existing.htaccess');
     await curl(['--output', originalPath, ftpRoot + '.htaccess']);
     const existing = await fs.readFile(originalPath, 'utf8');
-    const original = existing.includes(beginMarker) ? existing.split(beginMarker)[0] : existing;
-    if (existing.includes(beginMarker)) assert(existing.endsWith(endMarker) && existing.split(beginMarker).length === 2, 'Unexpected hosting configuration after AMAFH rules');
-    assert.equal(sha256(Buffer.from(original)), approvedHostingConfig, 'Existing cPanel directives changed; review required');
     const apacheRules = await fs.readFile(path.join(releaseRoot, '.htaccess'), 'utf8');
-    const merged = original + beginMarker + apacheRules.trimEnd() + '\n' + endMarker;
+    const merged = mergeHostingConfig(existing, apacheRules);
     await fs.writeFile(path.join(releaseRoot, '.htaccess'), merged);
     await fs.writeFile(path.join(evidenceRoot, 'deployed.htaccess'), merged);
     const htaccess = { path: '.htaccess', bytes: Buffer.byteLength(merged), sha256: sha256(Buffer.from(merged)) };

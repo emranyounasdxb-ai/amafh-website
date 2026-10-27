@@ -33,3 +33,15 @@ The website includes 20 pages in English and 20 matching pages in Arabic, with f
 ## Technology
 
 TypeScript, Vite, GSAP and Lenis.
+
+## Hosting and deployment
+
+This is a static website with no PHP application dependencies. cPanel currently
+declares the `ea-php85` handler in its generated `.htaccess` block. The FTPS
+deployment accepts the exact reviewed configuration and preserves the PHP block
+in place. Any unreviewed hosting change still stops deployment.
+
+Run `node --test scripts/hosting-config.test.mjs` to verify configuration
+preservation and rejection of unexpected changes. The reviewed configuration is
+recorded in `docs/deployment/reviewed-cpanel-php85.htaccess`; it is evidence for
+tests, not a replacement hosting configuration to upload manually.
