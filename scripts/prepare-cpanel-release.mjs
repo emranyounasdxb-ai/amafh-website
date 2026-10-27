@@ -13,7 +13,7 @@ for (const locale of ['en', 'ar']) for (const page of pages) {
   assert(html.includes('name="robots" content="index, follow"'), `Production indexability ${pathFor(locale, page)}`);
   assert(!html.includes('name="robots" content="noindex'), `Unexpected preview meta ${pathFor(locale, page)}`);
   assert(html.includes(`rel="canonical" href="${origin + pathFor(locale, page)}"`), `Production canonical ${pathFor(locale, page)}`);
-  assert(html.includes('id="decision-explorer"') && html.includes('id="decision-desk"'), `Latest content absent ${pathFor(locale, page)}`);
+  if (page !== 'workplace-policy') assert(html.includes('id="decision-explorer"') && html.includes('id="decision-desk"'), `Latest content absent ${pathFor(locale, page)}`);
 }
 for (const file of ['404.html', 'en/404/index.html', 'ar/404/index.html']) {
   const html = await fs.readFile(path.join(root, file), 'utf8');

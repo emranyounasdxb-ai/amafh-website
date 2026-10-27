@@ -1,3 +1,4 @@
+import { workplacePolicy } from './workplace-policy.ts';
 import { contact, copy, services, type Locale } from './content.ts';
 import { icon } from './icons.ts';
 import { labelFor, pathFor } from './routes.ts';
@@ -76,5 +77,6 @@ function baseInnerPage(page: string, locale: Locale, contactSection: string, vis
 }
 
 export function innerPage(page:string,locale:Locale,contactSection:string,visual:Visual) {
+ if (page === 'workplace-policy') return workplacePolicy(locale);
  return baseInnerPage(page,locale,contactSection,visual)+renderPageExpansion(page,locale);
 }

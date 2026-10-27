@@ -283,3 +283,9 @@
   object-fit:contain;
   object-position:center;
 }
+
+.workplace-policy-content { max-width:850px; }
+.workplace-policy-content h2 { font-size:clamp(24px,3vw,32px); line-height:1.45; margin-bottom:18px; }
+.workplace-policy-content p,.workplace-policy-content address { font-size:17px; line-height:1.85; color:#62655f; font-style:normal; }
+.workplace-policy-content p + p { margin-top:18px; }
+.workplace-policy-content a { color:var(--accent-text); text-decoration:underline; text-underline-offset:4px; }

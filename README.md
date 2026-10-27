@@ -17,7 +17,7 @@ A bilingual corporate website for AMAFH Commercial Brokers, a Dubai-based commer
 
 ## Languages
 
-The website includes 19 pages in English and 19 matching pages in Arabic, with full right-to-left navigation and layouts.
+The website includes 20 pages in English and 20 matching pages in Arabic, with full right-to-left navigation and layouts.
 
 ## Website features
 

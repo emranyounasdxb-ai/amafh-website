@@ -1,4 +1,5 @@
 import fs from 'node:fs/promises';
+import { pages } from '../../src/routes.ts';
 import path from 'node:path';
 import os from 'node:os';
 import assert from 'node:assert/strict';
@@ -19,7 +20,7 @@ const configQuote = value => `"${value.replaceAll('\\', '\\\\').replaceAll('"', 
 async function validateRelease() {
   const release = JSON.parse(await fs.readFile('artifacts/release/production-manifest.json', 'utf8'));
   assert.equal(release.origin, origin, 'Unexpected production origin');
-  assert.equal(release.canonicalPages, 38, 'Incomplete bilingual release');
+  assert.equal(release.canonicalPages, pages.length * 2, 'Incomplete bilingual release');
   assert.equal(release.fileCount, release.files.length, 'Invalid release file count');
   assert.equal(new Set(release.files.map(file => file.path)).size, release.files.length, 'Duplicate release paths');
   for (const file of release.files) {
@@ -36,7 +37,7 @@ async function validateRelease() {
   }
   assert(release.files.some(file => file.path === '.htaccess'), 'Missing Apache configuration');
   assert(release.files.some(file => /^assets\/index-[\w-]+\.css$/.test(file.path)), 'Missing fingerprinted stylesheet');
-  console.log(`Validated ${release.files.length} production files and 38 bilingual pages.`);
+  console.log(`Validated ${release.files.length} production files and ${release.canonicalPages} bilingual pages.`);
   return release;
 }
 
@@ -159,13 +160,13 @@ async function deploy(release) {
     assert((await missing.text()).includes('noindex, follow'), 'Missing custom non-indexable 404 page');
 
     const report = { deployedAt: new Date().toISOString(), origin, commit, workflowRun: process.env.GITHUB_RUN_ID,
-      status: 'deployed-and-https-verified', canonicalPages: 38, publicFilesVerified: assets.length + pages.length,
+      status: 'deployed-and-https-verified', canonicalPages: release.canonicalPages, publicFilesVerified: assets.length + pages.length,
       serverFilesDeleted: 0, hostingDirectivesPreserved: true, htaccess, files: release.files.filter(file => file.path !== '.htaccess') };
     await fs.writeFile(path.join(evidenceRoot, 'deployment.json'), JSON.stringify(report, null, 2));
     console.log(`PASS: deployed commit ${commit}; ${report.publicFilesVerified} public files match the release over HTTPS.`);
-    console.log('PASS: 38 bilingual pages, canonical redirects and custom HTTP 404 verified.');
+    console.log(`PASS: ${release.canonicalPages} bilingual pages, canonical redirects and custom HTTP 404 verified.`);
     if (process.env.GITHUB_STEP_SUMMARY) await fs.appendFile(process.env.GITHUB_STEP_SUMMARY,
-      `## AMAFH production deployment\n\n- Website: ${origin}\n- Commit: \`${commit}\`\n- Pages: 38 (English + Arabic)\n- Public files verified by SHA256: ${report.publicFilesVerified}\n- Existing cPanel directives preserved\n- Remote files deleted: 0\n`);
+      `## AMAFH production deployment\n\n- Website: ${origin}\n- Commit: \`${commit}\`\n- Pages: ${release.canonicalPages} (English + Arabic)\n- Public files verified by SHA256: ${report.publicFilesVerified}\n- Existing cPanel directives preserved\n- Remote files deleted: 0\n`);
   } finally {
     await fs.rm(temporary, { recursive: true, force: true });
   }

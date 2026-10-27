@@ -46,6 +46,14 @@ for(const [url,html] of all) {
   const json=html.match(/type="application\/ld\+json">(.*?)<\/script>/s)?.[1];
   assert(json&&JSON.parse(json)['@graph'].length>=3,`Schema ${url}`);
   const main=html.match(/<main\b[^>]*>(.*?)<\/main>/s)?.[1]??'';
+  if(page==='workplace-policy') {
+    assert(main.includes(locale==='en'?'we do not offer hybrid or remote working arrangements':'ولا توفر الشركة ترتيبات للعمل الهجين أو العمل عن بُعد'),`On-site arrangement ${url}`);
+    assert(main.includes('info@amafhdubai.ae')&&main.includes('tel:+97142105555'),`Policy contact ${url}`);
+    assert(main.includes('206')&&main.includes('218'),`Policy office ${url}`);
+    assert(!/id="decision-(explorer|desk)"/.test(main),`Unrelated content on policy ${url}`);
+    results.push({url,title,h1:1,headings:(main.match(/<h[123]\b/g)||[]).length,faqs:0});
+    continue;
+  }
   assert.equal((main.match(/id="decision-explorer"/g)||[]).length,1,`Missing/new accordion section count ${url}`);
   assert.equal((main.match(/id="decision-desk"/g)||[]).length,1,`Missing/new detail section count ${url}`);
   const newContent=decisionContent[page];
@@ -102,8 +110,8 @@ for(const service of services) {
   }
 }
 const sitemap=await fs.readFile('dist/sitemap.xml','utf8');
-assert.equal((sitemap.match(/<loc>/g)||[]).length,38);
-const report={checkedAt:new Date().toISOString(),pages:results.length,checks:['unique titles and descriptions','single H1','language and RTL','canonical and reciprocal hreflang','all internal destinations and fragments','unique IDs','image alt attributes','all photographs use generated assets','all responsive asset paths exist','structured data','EN/AR heading and FAQ parity','service practical guides and 6 FAQs','service enquiry context','38 sitemap entries'],results};
+assert.equal((sitemap.match(/<loc>/g)||[]).length,pages.length*2);
+const report={checkedAt:new Date().toISOString(),pages:results.length,checks:['unique titles and descriptions','single H1','language and RTL','canonical and reciprocal hreflang','all internal destinations and fragments','unique IDs','image alt attributes','all photographs use generated assets','all responsive asset paths exist','structured data','EN/AR heading and FAQ parity','service practical guides and 6 FAQs','service enquiry context',`${pages.length*2} sitemap entries`],results};
 report.photographs={uniquePerLocale:90,additionalGenerated:photoPlan.newImagesRequired,decodedPixelHashes:pixelHashes.size,fullFitPlacementsPerLocale:90,translationPolicy:'Matching EN/AR pages share the same assignment'};
 report.checks.push('90 unique photo placements across 19 page designs','no duplicate decoded photograph pixels','matching EN/AR photograph assignments');
 report.checks.push('two added sections per page','19 page-specific bilingual content sets','three accessible accordion chapters per page','substantive additional copy in both sections');
